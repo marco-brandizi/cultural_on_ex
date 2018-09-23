@@ -1,0 +1,19 @@
+# See umbria_trns.tarql
+#
+PREFIX cis: <http://dati.beniculturali.it/cis/>
+PREFIX kr: <http://www.example.com/resources/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+kr:culturaUmbria a cis:Address;
+  cis:adminUnitL1 "Umbria";
+  cis:adminUnitL2 "Perugia";
+  cis:postName "Perugia";
+  cis:fullAddress "Piazza IV Novembre 36";
+  cis:postCode "06123";
+  cis:hasGeometry kr:culturaUmbriaLoc
+.
+
+kr:culturaUmbriaLoc a cis:Geometry;
+  cis:hasLat "43.111997"^^xsd:double;
+  cis:hasLong "12.389377"^^xsd:double
+.

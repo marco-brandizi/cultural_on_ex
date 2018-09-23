@@ -1,0 +1,689 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix kr:  <http://www.example.com/resources/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cis:  <http://dati.beniculturali.it/cis/> .
+
+kr:18_00053823  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "FUSTO DI COLONNA, FRAMMENTO" ;
+        schema:genre     "AMBITO LOCALE" ;
+        dcterms:date     "SECC. XVI/ XVIII ; 1500  - 1799 [CONTESTO]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132907_dd000337.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053821  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SECC. XVI/ XVIII ; 1500  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "PRESENTA UN MOTIVO A VOLUTA" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132905_dd000335.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053836  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "PALIOTTO, FRAMMENTO" ;
+        schema:genre     "AMBITO LOCALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132920_dd000350.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053827  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "SAN SEBASTIANO" ;
+        schema:category  "SCULTURA" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132911_dd000341.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053954  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "FRATE DOMENICANO CHE LEGGE" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO NAPOLETANO" ;
+        dcterms:date     "SEC. XVII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133042_dd000475.jpg" .
+
+kr:18_00053956  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "MADONNA CHE INSEGNA A LEGGERE A GESU' BAMBINO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVI ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATOLA MADONNA TIENE L'INDICE SINISTRO TRA LE PAGINE DI UN LIBRO E COL BRACCIO DESTRO ABBRACCIA GESU' RAGAZZO. SULLO SFONDO A DESTRA SONO DUE ANGELI" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133044_dd000477.jpg" .
+
+kr:18_00053961  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO CON FORTIFICAZIONI" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO NAPOLETANO" ;
+        dcterms:date     "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133049_dd000482.jpg" .
+
+kr:18_00053962  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO MARINO CON ISOLOTTO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA UNA TENUE CROMIA" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133050_dd000483.jpg" .
+
+kr:18_00053963  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO CON ALBERI E FIGURA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133051_dd000484.jpg" .
+
+kr:18_00053965  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO CON SAN GIOVANNI BATTISTA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133053_dd000486.jpg" .
+
+kr:18_00053967  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO BOSCOSO CON FIGURA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO NAPOLETANO" ;
+        dcterms:date     "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133055_dd000488.jpg" .
+
+kr:18_00053968  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO FLUVIALE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" .
+
+kr:18_00053970  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO CON ALBERI" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133058_dd000491.jpg" .
+
+kr:18_00053855  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "BASAMENTO DI COLONNA, FRAMMENTO" ;
+        schema:genre     "BOTTEGA LOCALE" ;
+        dcterms:date     "SECC. XVI/ XVII ; 1500  - 1699 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132940_dd000370.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053856  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "lapide, sepolcrale" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1757  - 1757 [DATA]" ;
+        dcterms:description  "STEMMI, EMBLEMI, MARCHI: Classe di appartenenza: STEMMA, Identificazione: FAMIGLIA CHITTI, Quantità: 1, Posizione: IN ALTO, " ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132941_dd000371.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053860  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1720  - 1729 [DATA]" ;
+        dcterms:description  "IN BASSO AD UNA CROCE SCOLPITA ENTRO UNA LOSANGA E' UNA DATA" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132945_dd000375.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053863  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "MASCHERONE" ;
+        schema:genre     "BOTTEGA LOCALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132948_dd000378.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053868  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVI/ XVIII ; 1500  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "SI TRATTA DELLA PARTE SUPERIORESTEMMI, EMBLEMI, MARCHI: Classe di appartenenza: STEMMA, Identificazione: NON IDENTIFICABILE, Quantità: 1, " ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132953_dd000383.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053874  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "MENSOLA DI BALCONE" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SEC. XIX ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "SULLA FRONTE E' UNA MASCHERA ORMAI QUASI ILLEGGIBILE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132959_dd000389.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053819  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO D'UOMO V. RITRATTO MASCHILE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO CALABRESE" ;
+        dcterms:date         "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "POTREBBE TRATTARSI DI UN PRELATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132903_dd000333.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053972  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO RURALE CON FIGURE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133060_dd000493.jpg" .
+
+kr:18_00053973  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO RURALE CON SCENA DI PASCOLO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133061_dd000494.jpg" .
+
+kr:18_00053975  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "SCENA DI SACRIFICIO" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SECC. XVIII/ XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133063_dd000496.jpg" .
+
+kr:18_00053978  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "SCENA DI RICREAZIONE AL MARE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133066_dd000499.jpg" .
+
+kr:18_00053980  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "CREAZIONE DI EVA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVI Seconda metà; 1650  - 1699 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133068_dd000501.jpg" .
+
+kr:18_00053830  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "MADONNA CON BAMBINO" ;
+        schema:category  "SCULTURA" ;
+        schema:genre     "AMBITO LOCALE" ;
+        dcterms:date     "SEC. XVIII FINE; 1790  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132914_dd000344.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053949  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "RUPE SUL MARE IN BURRASCA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133037_dd000470.jpg" .
+
+kr:18_00053950  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO MASCHILE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "IL PERSONAGGIO E' RITRATTO SEDUTO, PRESSO UNA LIBRERIA" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133038_dd000471.jpg" .
+
+kr:18_00053952  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "ANGELO ANNUNCIANTE V. ANCHE MADONNA ANNUNCIATA ANNUNCIAZIONE" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO CALABRESE" ;
+        dcterms:date     "SEC. XVII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133040_dd000473.jpg" .
+
+kr:18_00053869  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "TESTA DI VESCOVO" ;
+        schema:category  "SCULTURA, FRAMMENTO" ;
+        schema:genre     "AMBITO CALABRESE" ;
+        dcterms:date     "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132954_dd000384.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053873  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "ACQUASANTIERA" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVII/ XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORPO CAVO A SEZIONE CIRCOLARE, CON QUATTRO SPORGENZE CURVE LUNGO IL BORDO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132958_dd000388.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053915  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "BACCANALE" ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVIII FINE; 1790  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "BASSORILIEVO CON CORNICE IN LEGNO E DIPINTO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133005_dd000436.jpg" .
+
+kr:18_00053916  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "ACHILLE EDUCATO DA CHIRONE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVIII FINE; 1790  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "IL CENTAURO CHIRONE E' RAFFIGURATO IN ATTO DI SUONARE LA CETRA; LO AFFIANCA IN PIEDI IL GIOVANE ACHILLE, CON UNA FARETRA SULLE SPALLE." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133006_dd000437.jpg" .
+
+kr:18_00053867  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "LAPIDE, FRAMMENTO" ;
+        schema:genre     "BOTTEGA LOCALE" ;
+        dcterms:date     "SEC. XV ; 1400  - 1499 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132952_dd000382.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053944  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "LAPIDE COMMEMORATIVA, FRAMMENTO" ;
+        schema:genre     "AMBITO LOCALE" ;
+        dcterms:date     "SEC. XIX ; 1851  - 1851 [DATA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133031_dd000464.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053833  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "SCULTURA, FRAMMENTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SECC. XVIII/ XIX ; 1700  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "PRESENTA UNA DECORAZIONE FLOREALE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132917_dd000347.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053835  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "CAPITELLO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SECC. XVIII/ XIX ; 1700  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA DOPPIA VOLUTA IONICA RACCORDATE DA UN FESTONE FITOMORFO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132919_dd000349.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053838  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "CONFESSIONALE, FRAMMENTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XIX INIZIO; 1800  - 1810 [ANALISI STILISTICA]" ;
+        dcterms:description  "TRA GLI ALTRI FRAMMENTI RISALTANO UN FREGIO AD INTARSIO CON UCCELLI TRA MOTIVI FITOMORFI, DUE GRANDI VOLUTE FOLIACEE, DUE VASI CON COMPOSIZIONI FLOREALI E DUE CAPITELLI CON DOPPIA VOLUTA IONICA RACCORDATA DA UN FESTONE VEGETALE." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132922_dd000352.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053917  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "RITRATTO DI UN UFFICIALE BORBONICO" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII FINE; 1790  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133007_dd000438.jpg" .
+
+kr:18_00053919  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "MADONNA CON BAMBINO E SANTI FRANCESCO D'ASSISI E ANTONIO DA PADOVA" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "DIPINTO OVALE CON CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133009_dd000440.jpg" .
+
+kr:18_00053920  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "MADONNA IN GLORIA, DIO PADRE E SANTI" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "IN ALTO LA MADONNA, CORONATA DI STELLE, INDICA UN CARTIGLIO CON ISCRIZIONE, RETTO DA ANGELI, DIETRO IL QUALE E' DIO PADRE. IN BASSO SONO SAN GIOVANNI EVANGELISTA E UN SANTO VESCOVO." .
+
+kr:18_00053946  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "SACRIFICIO DI ISACCO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO ROMANO" ;
+        dcterms:date         "SECC. XVI/ XVII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133034_dd000467.jpg" .
+
+kr:18_00053947  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "SACRA FAMIGLIA CON SANT'ANNA" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO, DIPINTO E PARZIALMENTE DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133035_dd000468.jpg" .
+
+kr:18_00053948  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "BUSTO MASCHILE" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133036_dd000469.jpg" .
+
+kr:18_00053957  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "SAN GREGORIO ISPIRATO DALLO SPIRITO SANTO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "IL SANTO, IN ABITI PONTIFICALI, TIENE SULLE GAMBE UN LIBRO APERTO E VOLGELO SGUARDO ALLA COLOMBA DELLO SPIRITO SANTO. A DESTRA SONO DUE ANGELI." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133045_dd000478.jpg" .
+
+kr:18_00053959  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "PAESAGGIO FLUVIALE CON FIGURE" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133047_dd000480.jpg" .
+
+kr:18_00053960  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO CON ROVINE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "IN PRIMO PIANO A SINISTRA SONO ROVINE ARCHITETTONICHE, CIRCONDATE DA VEGETAZIONE. SULLO SFONDO A DESTRA E' UNA CASCATA, VERSO CUI SI DIRIGONO DUE FIGURINE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133048_dd000481.jpg" .
+
+kr:18_00053876  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "SCULTURA, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SEC. XIX ; 1864  - 1864 [DOCUMENTAZIONE]" ;
+        dcterms:description  "SI TRATTA DI UN ELEMENTO SCOLPITO A FORMA DI PIGNA E DI UN BASSORILIEVO QUADRANGOLARE RAFFIGURANTE UNA MASCHERA, ADIBITA A BOCCA DI FONTANA." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132961_dd000391.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053981  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "SAN MICHELE ARCANGELO COMBATTE CONTRO SATANA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133069_dd000502.jpg" .
+
+kr:18_00053982  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO MASCHILE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133070_dd000503.jpg" .
+
+kr:18_00053983  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "MADONNA IMMACOLATA V. ANCHE IMMACOLATA CONCEZIONE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "BUSTO DELLA MADONNA CORONATA DI STELLE, IN ATTO DI PREGARE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133071_dd000504.jpg" .
+
+kr:18_00053985  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "CERERE E PANE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "E' PRIVO DI CORNICE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133073_dd000506.jpg" .
+
+kr:18_00053986  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "FLAGELLAZIONE DI CRISTO V. ANCHE CRISTO FLAGELLATO CRISTO ALLA COLONNA" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133074_dd000507.jpg" .
+
+kr:18_00053987  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO RURALE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133075_dd000508.jpg" .
+
+kr:18_00053988  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "PAESAGGIO RURALE CON SCENA DI PASCOLO" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO NAPOLETANO" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133076_dd000509.jpg" .
+
+kr:18_00053862  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVII/ XVIII ; 1600  - 1700 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA LA FORMA DI UN BALAUSTRO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132947_dd000377.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053904  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "TOBIA E SAN RAFFAELE ARCANGELO" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVIII Seconda metà; 1750  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132994_dd000425.jpg" .
+
+kr:18_00053905  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132995_dd000426.jpg" .
+
+kr:18_00053906  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "TRANSITO DI SAN LUIGI TRA ANGELI E SANTI" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA CORNICE IN LEGNO INTAGLIATO E DORATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132996_dd000427.jpg" .
+
+kr:18_00053940  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVIII/ XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "IL RILIEVO RECA SCOLPITI UNA VOLUTA ED UN ELEMENTO FOLIACEO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133028_dd000460.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053907  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "CRISTO PORTACROCE" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO LOCALE" ;
+        dcterms:date     "SEC. XVIII ; 1700  - 1799 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132997_dd000428.jpg" .
+
+kr:18_00053908  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO DI GIOVANE MEMBRO DELLA FAMIGLIA GENOESE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA RICCA CORNICE IN LEGNO INTAGLIATO E DORATO, LA CUI DECORAZIONE COMPRENDE COMPOSIZIONI FITOMORFE E VOLUTE FOLIACEE.IL GIOVANE E' RITRATTO SEDUTO, COL BRACCIO SINISTRO APPOGGIATO AD UN TAVOLO COPERTO DA UN DRAPPO ROSSO." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132998_dd000429.jpg" .
+
+kr:18_00053909  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO DI GIOVANE MEMBRO DELLA FAMIGLIA GENOESE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA RICCA CORNICE IN LEGNO INTAGLIATO E DORATO , LA CUI DECORAZIONE COMPRENDE MOTIVI FITOMORFI E VOLUTE FOLIACEE." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132999_dd000430.jpg" .
+
+kr:18_00053910  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "RITRATTO DI GIOVANE MEMBRO DELLA FAMIGLIA GENOESE" ;
+        schema:category      "DIPINTO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA RICCA CORNICE IN LEGNO INTAGLIATO E DECORATO, LA CUI DECORAZIONE COMPRENDE MOTIVI FITOMORFI E VOLUTE FOLIACEE." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133000_dd000431.jpg" .
+
+kr:18_00053913  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "MARIA MADDALENA UNGE E ASCIUGA CON I CAPELLI I PIEDI DI GESU'" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO CALABRESE" ;
+        dcterms:date     "SECC. XVI/ XVII ; 1500  - 1699 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133003_dd000434.jpg" .
+
+kr:18_00053914  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "ECCE HOMO V. ANCHE PILATO MOSTRA CRISTO AL POPOLO" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO MERIDIONALE" ;
+        dcterms:date     "SEC. XVII ; 1600  - 1699 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133004_dd000435.jpg" .
+
+kr:18_00053932  rdf:type  cis:CulturalHeritageObject ;
+        rdfs:label       "SAN SEBASTIANO" ;
+        schema:category  "DIPINTO" ;
+        schema:genre     "AMBITO ROMANO" ;
+        dcterms:date     "SEC. XVII Prima metà; 1600  - 1649 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133021_dd000453.jpg" .
+
+kr:18_00053933  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "SANTO STEFANO" ;
+        schema:category      "STATUA" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVII ; 1600  - 1649 [ANALISI STILISTICA]" ;
+        dcterms:description  "IL SANTO VESTITO DA DIACONO, REGGE CON LA MANO SINISTRA UN LIBRO SUL QUALE SONO TRE PIETRE." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133022_dd000454.jpg" .
+
+kr:18_00053936  rdf:type     cis:CulturalHeritageObject ;
+        rdfs:label           "FLAGELLAZIONE DI CRISTO V. ANCHE CRISTO FLAGELLATO CRISTO ALLA COLONNA" ;
+        schema:category      "RILIEVO" ;
+        schema:genre         "AMBITO MERIDIONALE" ;
+        dcterms:date         "SEC. XVIII ; 1800  - 1849 [ANALISI STILISTICA]" ;
+        dcterms:description  "BASSORILIEVO CON CORNICE IN LEGNO INTAGLIATO" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133025_dd000457.jpg" .
+
+kr:18_00053941  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "ACQUASANTIERA" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVII/ XIX ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "SI COMPONE DI UN CORPO CON LIEVE CAVITA', SUL CUI FONDO ESTERNO E' SCOLPITA UNA MANO APERTA." ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6133029_dd000461.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053943  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "RILIEVO, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVI/ XVIII ; 1800  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "STEMMI, EMBLEMI, MARCHI: Classe di appartenenza: STEMMA, Identificazione: NON IDENTIFICABILE, Quantità: 1, " ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6350922_dd000463.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053852  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "RILIEVO, FRAMMENTO" ;
+        schema:genre     "BOTTEGA LOCALE" ;
+        dcterms:date     "SECC. XIX/ XX ; 1880  - 1920 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132937_dd000367.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053854  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "BASE, FRAMMENTO" ;
+        schema:genre         "BOTTEGA LOCALE" ;
+        dcterms:date         "SECC. XVIII/ XIX ; 1700  - 1899 [ANALISI STILISTICA]" ;
+        dcterms:description  "HA SEZIONE QUADRANGOLARE E' RASTREMATA VERSO L'ALTO E DECORATA DA UNA SEMPLICE MODANATURA" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132939_dd000369.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053857  rdf:type  cis:CulturalHeritageObject ;
+        schema:category  "ACQUASANTIERA DA PARETE" ;
+        schema:genre     "BOTTEGA LOCALE" ;
+        dcterms:date     "SECC. XVII/ XVIII ; 1600  - 1700 [ANALISI STILISTICA]" ;
+        schema:image     "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132942_dd000372.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .
+
+kr:18_00053834  rdf:type     cis:CulturalHeritageObject ;
+        schema:category      "BASE, FRAMMENTO" ;
+        schema:genre         "AMBITO LOCALE" ;
+        dcterms:date         "SEC. XVIII FINE; 1790  - 1799 [ANALISI STILISTICA]" ;
+        dcterms:description  "SU UN LATO SONO IN BASSO, DUEFIACCOLE INCROCIATE E, IN ALTO, UNA TESTINA CON GORGIERA; SULL'ALTRO, RISPETTIVAMENTE, TRE CERCHI CON DRAPPO E DUE TENDE APERTE" ;
+        schema:image         "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD12500/ICCD6132918_dd000348.jpg" .
+
+kr:416f6344f3d59a0a05eb7ab6ffc88379
+        rdf:type     cis:Geometry ;
+        cis:hasLat   "38.412255"^^xsd:double ;
+        cis:hasLong  "16.059411"^^xsd:double .

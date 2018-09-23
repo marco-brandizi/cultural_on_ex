@@ -1,0 +1,667 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix kr:  <http://www.example.com/resources/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cis:  <http://dati.beniculturali.it/cis/> .
+
+kr:2    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Miniatura a Perugia tra Cinquecento e seicento" ;
+        dcterms:description  "E' il primo volume della collana: dedicato alla miniatura perugina del tardo cinquecento e del primo seicento, rappresenta il banco di prova di un metodo di catalogazione che tiene conto non solo delle informazioni dirette, come commissioni, pagamenti, contratti, ma anche di fattori esterni all'opera d'arte, come la mobilità economica del prodotto figurativo e il relativo andamento del mercato, l'organizzazione delle botteghe e la loro distribuzione nel tessuto urbano, la rappresentatività pubblica della categoria egli artisti, la consistenza patrimoniale dei loro beni. Bibliografia e indice analitico completano il volume" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:3    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Un modello catalografico per l'archeologia industriale" ;
+        dcterms:description  "Primo di una serie di volumi della collana dedicati all'archeologia industriale, questo libro illustra un modello di scheda da utilizzare per la catalogazione delle testimonianze industriali della regione. Tale scheda intende proporre un criterio catalografico in grado di garantire una lettura il più possibile 'globale' dei siti, finalizzata alla successiva adozione di provvedimenti urbanistici volti alla loro salvaguardia e alle eventuali possibilità di riuso." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:4    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Le Officine Bosco di Terni" ;
+        dcterms:description  "Questo volume della serie archeologico-industriale è dedicato all'Officina Bosco di Terni, un importante monumento industriale che viene presentato con l'utilizzo di una scheda appositamente realizzata per l'inventario e la catalogazione dei siti industriali dell'Umbria. La scheda di rilevazione è preceduta da un saggio introduttivo che delinea le tappe del processo di industrializzazione a Terni e nel territorio circostante." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:5    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca Comunale di Città di Castello. 1.Dipinti" ;
+        dcterms:description  "Nel volume, il primo di due, vengono catalogati in maniera esaustiva e completa i beni di proprietà del comune di Città di Castello, conservati a Palazzo Vitelli alla Cannoniera. In apertura un saggio che delinea la storia della raccolta, a cominciare dalla figura del collezionista antiquario Elia Volpi, che donò alla città il palazzo, e una descrizione sistematica degli affreschi che decorano palazzo Vitelli alla Cannoniera, dove è custodito il maggior numero dei dipinti: 'contenitore' monumentale di grande interesse artistico, il palazzo è da considerare integrato con il percorso di visita della pinacoteca." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:6    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca Comunale di Città di Castello. 2. Scultura e arti decorative" ;
+        dcterms:description  "Questo volume, che segue quello dedicato ai dipinti raccolti nella Pinacoteca Comunale di Città di Castello, propone il catalogo di tutte le altre opere conservate presso la medesima istituzione museale. Riunisce quindi sculture, oreficerie, maioliche e arredi lignei in parte provenienti dalla demanizzazione del patrimonio ecclesiastico o da donazioni private, in parte raccolti dall'antiquario Elia Volpi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:7    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Lo Zuccherificio di Foligno" ;
+        dcterms:description  "Questo volume della serie archeologico-industriale è dedicato a uno di quei siti industriali che, avendo assunto notevole rilievo nel contesto ambientale ed economico del territorio, pongono il problema della salvaguardia e di una più opportuna correlazione tra soluzioni urbanistiche, esigenze di tutela e possibile riuso. Dopo una breve introduzione sulle manifatture cittadine di Foligno, lo zuccherificio è analizzato e presentato mediante una scheda di catalogazione appositamente elaborata per il censimento dei monumenti di archeologia industriale presenti in Umbria." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:8    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Galleria comunale d'arte moderna di Spoleto. Nuove acquisizioni" ;
+        dcterms:description  "Il volume presenta la cospicua raccolta di arte contemporanea, antecedente all’allestimento del 2000, curato da Giovanni Carandente, nella nuova sede di palazzo Collicola. Vi sono raccolte opere di famosi artisti italiani e stranieri della scena contemporanea tra cui Calder, Moore, Chadwick, Consagra, Leoncillo. Il libro è corredato da saggi introduttivi sulla costituzione della raccolta e sul Premio Spoleto" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:10   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "La basilica di S. Maria degli Angeli. 1. Storia e architettura" ;
+        dcterms:description  "Questo volume - il primo di tre dedicati alla basilica di Santa Maria degli Angeli ad Assisi - presenta una raccolta di contributi che ricostruiscono le vicende storico-artistiche di questa vera e propria culla del francescanesimo, dove devoti e turisti si recano numerosi ad ammirare la celebre Porziuncola." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:11   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Ceramiche a vernice nera." ;
+        dcterms:description  "Questo volume propone il catalogo della ceramica romana a vernice nera conservata presso il Museo Faina di Orvieto. Prodotta in ambito italico a partire dal IV secolo a.C., questa classe ceramica rappresentava una sorta di 'surrogato' di più preziosi servizi da mensa, economicamente inaccessibili, per i ceti medi che costituivano una componente piuttosto rilevante del tessuto sociale etrusco-romano." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:12   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di San Francesco a Montefalco" ;
+        dcterms:description  "Questo volume è stato pubblicato in occasione del riallestimento espositivo della raccolta montefalchese. Oltre alle opere mobili appartenenti alla raccolta, il libro analizza la decorazione murale della chiesa di San Francesco - sede del museo -, recentemente sottoposta a lavori di consolidamento e bonifica. Il catalogo delle opere è preceduto da una sezione introduttiva che traccia la storia dell'edificio ecclesiastico e della raccolta museale, offrendo anche alcune informazioni sulla nuova sistemazione del complesso." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:13   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "La Basilica di Santa Maria degli Angeli. 3. Documenti" ;
+        dcterms:description  "Questo volume della serie dedicata all’importante basilica di Santa Maria degli Angeli, ideale seguito del precedente dedicato alla storia e all'architettura, riporta integralmente gli appunti manoscritti costituenti l'archivio, in gran parte inedito, di padre Egidio Maria Giusto. Nell'arco di mezzo secolo il religioso annotò, in circa 3500 schede, spogli bibliografici, documentazione storica e notizie varie comunque legate alle vicende della basilica: un materiale ricco e complesso, reso facilmente accessibile al lettore da un apparato esplicativo puntuale e articolato." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:14   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo del vino di Torgiano. Ceramiche" ;
+        dcterms:description  "Questo volume è dedicato alla catalogazione e allo studio sistematico delle ceramiche che vanno dal Medioevo ai nostri giorni conservate nel Museo del vino di Torgiano, unico nel suo genere, riguardante la storia della vite, dell'uva e del vino: ceramiche medievali (secoli XII-XIV), ceramiche dal tardogotico al rococò (secoli XV-XVII), ceramiche artigianali nei secoli XIX e XX. Un saggio introduttivo ricostruisce la formazione delle raccolte, illustrazioni con singole schede descrivono il catalogo dei pezzi, suddivisi per classi e tipologie ceramiche secondo un approccio scientifico di tipo archeologico. A fondo libro negli Apparati: bibliografia, indice dei nomi e dei luoghi, indice dei ceramisti e dei manufatturieri." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:15   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Todi. Monete" ;
+        dcterms:description  "Questo volume è dedicato alla sezione numismatica del Museo Comunale di Todi, costituita da circa 1500 monete che vanno dal III secolo a.C. fino all'età moderna: una ricca collezione, che spicca tra le raccolte umbre per il suo carattere eterogeneo e non ripetitivo. Il catalogo dei pezzi, nel quale è riprodotto ogni singola moneta, è preceduto da un saggio introduttivo che descrive la formazione del medagliere, nato nel 1700 e accresciutosi successivamente fino ad assumere l'attuale fisionomia." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:16   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo del vino di Torgiano. Materiali archeologici" ;
+        dcterms:description  "Tre volumi sono dedicati ai materiali unici e preziosi raccolti e conservati nel Museo del vino di Torgiano. Questo titolo tratta in particolare della piccola ma importante collezione archeologica conservata nel palazzo Baglioni di Torgiano, ospitante il museo, raccolta e ordinata sul tema del vino e la sua conservazione. Un centinaio di oggetti, estremamente differenti fra loro per materia, epoca, luogo di fabbricazione o rinvenimento, destinazione, qualità artistica. Le opere sono state raggruppate secondo il materiale con cui sono state realizzate: prima gli oggetti in pietra, poi quelli in metallo, i vetri e ed infine le ceramiche e le terrecotte. Ogni oggetto è fotografato è schedato con i 'dati anagrafici', quali il numero di inventario, la provenienza, le misure, lo stato di conservazione, il materiale e la tecnica esecutiva; segue la descrizione e, per quanto possibile, l'inquadramento storico e antiquario. A fondo libro negli Apparati: glossario delle forme vascolari, abbreviazioni bibliografiche, bibliografia, indice dei nomi e dei luoghi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:17   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Materiali preistorici e protostorici" ;
+        dcterms:description  "Questo volume, dedicato al materiale preistorico e protostorico conservato presso il Museo Faina di Orvieto, propone la documentazione di tutti i reperti attraverso una rigorosa riproduzione grafica dei manufatti e ne suggerisce un inquadramento storico-archeologico il più possibile attendibile, compatibilmente con le difficoltà determinate dalla quasi totale assenza di indicazioni relative alle località e alle circostanze di rinvenimento degli oggetti. La prima parte del catalogo è dedicata alla ceramica e alla produzione metallurgica, mentre all'industria litica è stata riservata la seconda parte." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:18   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Archeologia industriale e territorio a Terni. Siri, Collestatte, Papigno" ;
+        dcterms:description  "Questo volume, della serie dedicata all'archeologia industriale e pertinente al territorio di Terni, propone tre schede catalografiche relative ad altrettanti impianti elettrochimici, accomunati da un processo di deindustrializzazione che pone urgenti problemi di conservazione ed eventuale riuso. La catalogazione costituisce infatti un fondamentale supporto conoscitivo per un'opportuna correlazione tra le esigenze di tutela e gli interventi urbanistici, che devono essere compatibili con la salvaguardia di un patrimonio di notevole valore storico e culturale." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:19   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Archeologia industriale e territorio a Narni. Elettrocarbonium, Linoleum, Nera Montoro" ;
+        dcterms:description  "Questo volume della serie archeologico-industriale è dedicato alle testimonianze industriali nella zona di Narni, uno dei comuni più industrializzati della regione. Il libro intende offrire al lettore una sorta di 'itinerario'sul territorio narnense, presentando i risultati della schedatura delle testimonianze in modo tale da permettere una lettura unitaria delle trasformazioni subite dal zona interessata, proprio in seguito all'insediarsi e all'espandersi di strutture produttive industriali." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:20   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolta di Cannara. Materiali archeologici, Monete, Dipinti e Sculture" ;
+        dcterms:description  "Il volume in questione dà conto dei materiali archeologici conservati a Cannara nella loro primitiva sistemazione, antecedente all’ attuale collocazione nella nuova sede, inaugurata nel 2009, destinata al Museo della città,. Dagli studi la raccolta risulta costituita da reperti provenienti tutti indistintamente dal sito di Urvinum Hortense, con la caratteristica singolare di una formazione definita, circoscritta a un preciso ambiente storico, culturale e topografico. Prossimamente sarà edito il catalogo della nuova sistemazione museografica." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:21   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Deruta" ;
+        dcterms:description  "Questo volume propone il catalogo dei dipinti appartenenti alla Pinacoteca Comunale di Deruta, che vanta, tra gli altri, lavori di Perugino, Alunno, Amorosi e Baciccio. Raccolta piccola, ma importante e diversificata anche per la provenienza delle opere; la pinacoteca, infatti, è costituita da un nucleo di dipinti appartenuti a varie chiese del territorio, a cui si associa quello rappresentato dai notevolissimi pezzi acquisiti con la collezione Pascoli." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:22   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Ceramica etrusca figurata" ;
+        dcterms:description  "Questo volume della serie dedicata al Museo Claudio Faina di Orvieto raccoglie le più notevoli testimonianze della produzione vascolare dipinta etrusca lì conservata. Dalla produzione orientalizzante a quella etrusco-corinzia del VII secolo a.C., fino alle diverse tipologie di ceramica a figure nere e a figure rosse: un ricco patrimonio che consente, tra l'altro, di analizzare approfonditamente rapporti e analogie tra la produzione etrusca e quella greca." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:23   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Gubbio. Incisioni" ;
+        dcterms:description  "Questo volume è dedicato alle incisioni conservate presso il Museo Comunale di Gubbio, nell'intento di valorizzare un patrimonio tanto meritevole d'attenzione quanto solitamente poco conosciuto. Il catalogo delle opere - che comprende incisioni, litografie, stampe contemporanee e matrici - è preceduto da un breve saggio che propone un'ipotesi di ricostruzione della storia della raccolta." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:24   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Gubbio. Monete" ;
+        dcterms:description  "Questo volume propone il catalogo della sezione numismatica del Museo Comunale di Gubbio. Priva di documenti che aiutino a ricostruirne le fasi di formazione e le finalità, oltre che i contesti di provenienza dei pezzi, la raccolta eugubina risulta costituita da materiale risalente a diverse epoche: si va dalle monete italiche a quelle romane repubblicane e imperiali, da quelle dei duchi di Urbino a quelle della zecca di Gubbio, con una notevole presenza di monete varie di età medievale e moderna." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:25   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo del vino di Torgiano. Incisioni" ;
+        dcterms:description  "Questo volume propone il catalogo delle incisioni raccolte nel Museo del vino di Torgiano ed esposte in sei nuove sale di recente apertura. Tra le opere - circa seimila tra disegni e incisioni - sono presenti anche alcuni eccezionali capolavori, come il Baccanale del Mantegna, Venere e Cupido e Bacco che innalza una coppa del Goltzius e il Sileno ebbro del Carracci." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:26   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Il Sistema Museale Regionale dell'Umbria" ;
+        dcterms:description  "Catalogo della omonima mostra, realizzata nel 1995 con allestimento di Luigi Caccia Dominioni, con la quale si dava conto dei risultati sino ad allora ottenuti e dei valori culturali e politici ai quali la Regione Umbria si era ispirata per il ripristino dei musei e raccolte di enti locali -trasferiti dallo Stato alle Regioni nel 1972- e contestualmente anticipava le prospettive per l’immediato futuro." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:27   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Monete etrusche e italiche, greche, romane repubblicane" ;
+        dcterms:description  "Questo volume offre una sistematica documentazione delle monete etrusche, italiche, greche e romane di età repubblicana presenti nel cospicuo medagliere del Museo Faina di Orvieto, riunito in gran parte dal fondatore del museo tra il 1864 e il 1868 e comprensivo di più di tremila esemplari di varia epoca e provenienza. Proprio alla formazione della raccolta numismatica è dedicato il capitolo introduttivo del libro, che precede il catalogo dei pezzi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:28   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Gubbio. Materiali archeologici" ;
+        dcterms:description  "Questo volume propone il catalogo dei reperti archeologici del Museo Comunale di Gubbio, sottoposti a completa schedatura e documentazione grafica e fotografica. Si tratta di un materiale ricco e vario che comprende sculture, terrecotte architettoniche, lucerne, vetri, ossi lavorati, anfore, rivestimenti parietali ed elementi di pavimentazione, nonché importanti testimonianze epigrafiche, tra cui le celeberrime 'tavole eugubine'. Il catalogo è preceduto da un saggio introduttivo che ricostruisce la storia della formazione della raccolta archeologica." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:29   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Gubbio. Ceramiche" ;
+        dcterms:description  "Questo volume della collana è dedicato alla raccolta di ceramiche e maioliche conservate nel Museo Civico di Gubbio: un materiale ricco e variegato che, insieme a quelli delle altre istituzioni museali umbre, rappresenta un importante punto di riferimento per gli studi di storia della ceramica italiana. Il catalogo dei pezzi è preceduto da un capitolo introduttivo che delinea la storia delle acquisizioni del Museo eugubino." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:30   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Spello" ;
+        dcterms:description  "Questo volume della serie è dedicato alla Pinacoteca Comunale di Spello, che comprende dipinti, sculture, tessuti e opere delle cosiddette arti minori provenienti da chiese e collezioni private della città umbra e del territorio circostante. Il catalogo dei pezzi è preceduto da un saggio che ricostruisce le vicende della raccolta ed è seguito da un ricco apparato di bibliografia e indici." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:31   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Monete romane imperiali da Augusto a Commodo" ;
+        dcterms:description  "Questo volume è dedicato alle monete imperiali romane dell'epoca che va da Augusto a Commodo esposte al Museo Faina di Orvieto. Il catalogo dei pezzi, completato da un'ampia sezione di apparati, è preceduto da un saggio introduttivo che illustra il ruolo delle monete di età romana nelle raccolte numismatiche dei conti Faina." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:32   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Accademia di Belle Arti di Perugia. Dipinti" ;
+        dcterms:description  "Questo volume è dedicato ai dipinti dell'Accademia di Belle Arti di Perugia, un istituto che a partire dal 1573, anno della fondazione, ha giocato un ruolo fondamentale nella formazione dei giovani artisti umbri e ha consentito alla città di inserirsi in alcuni dei grandi eventi artistici nazionali e internazionali. Il catalogo delle opere è preceduto da un contributo che ricostruisce la storia dell'Accademia, confrontandola con quella di analoghe istituzioni e inserendola nel contesto nazionale." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:33   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Amelia. Raccolta archeologica. Cultura materiale" ;
+        dcterms:description  "Questo volume è dedicato alla raccolta archeologica comunale di Amelia, in occasione del suo trasferimento nel palazzo dell'ex collegio Boccarini. Il materiale amerino, ampliatosi grazie anche a recentissime scoperte e all'acquisizione di una consistente collezione privata, offre dati preziosi per la ricostruzione di un quadro complessivo dell'antica città, effettuata attraverso lo studio della cultura materiale." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:34   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Nocera Umbra" ;
+        dcterms:description  "Pubblicato in occasione della risistemazione e della riapertura al pubblico della Pinacoteca di Nocera Umbra, questo volume della collana propone il catalogo delle opere appartenenti alla raccolta comunale, nonché una rilettura critica di tutto il patrimonio pittorico presente nella chiesa di San Francesco, sede espositiva della Pinacoteca. Oltre alle opere mobili - dipinti, sculture, arredi ecclesiastici - viene quindi analizzata anche la decorazione murale dell'edificio religioso, recentemente sottoposto a un accurato lavoro di restauro." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:35   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Amelia. Raccolta archeologica. Iscrizioni, sculture, elementi architettonici e d'arredo" ;
+        dcterms:description  "Dopo il volume dedicato agli oggetti di cultura materiale conservati presso il Museo Comunale di Amelia, questo libro presenta i reperti di rilevanza pubblica esposti nel medesimo museo, dalle epigrafi sepolcrali alle decorazioni architettoniche, dai monumenti alle statue del culto imperiale. Il catalogo dei pezzi è preceduto da un saggio che traccia un profilo storico degli interventi di scavo in Amelia e, parallelamente, della formazione della raccolta archeologica comunale." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:36   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Bettona" ;
+        dcterms:description  "In occasione della riapertura al pubblico della Pinacoteca Comunale di Bettona, viene pubblicato questo volume della collana, che presenta i materiali conservati nel museo: dipinti, sculture, stampe, nonché ceramiche, monete, epigrafi e arredi civili ed ecclesiastici. Il catalogo dei pezzi è preceduto da due saggi introduttivi dedicati alla raccolta e ai documenti che ne testimoniano la vicenda." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:37   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di San Francesco a Montone" ;
+        dcterms:description  "Questo volume della serie è dedicato al Museo Comunale di Montone, piccolo centro la cui storia è strettamente intrecciata con quella di Braccio di Montone, sensibile mecenate e cultore delle arti oltre che celebre condottiero e uomo di guerra. Allestito nella chiesa di San Francesco, ricomposta per quanto possibile con il suo arredo originale, e negli annessi spazi conventuali, il museo raccoglie sculture, dipinti, incisioni, oreficerie, tessuti e arredi lignei, di cui il presente volume propone il catalogo completo." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:38   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Monete romane imperiali da Pertinace a Valentiniano III" ;
+        dcterms:description  "Questo volume della serie è dedicato a una sezione della collezione numismatica del Museo Faina di Orvieto, che ospita una delle raccolte archeologiche più ricche d'Italia. Appartenenti ai secoli del tardo Impero, le monete analizzate e catalogate riflettono la situazione di un'epoca in cui gli imperatori si avvicendano con grande rapidità o addirittura si sovrappongono, cosicché, talvolta, l'emissione monetale è l'unico segnale superstite di un'investitura durata magari solo qualche mese, se non addirittura pochi giorni." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:39   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Le Acciaierie di Terni" ;
+        dcterms:description  "Questo volume della serie è dedicato a un importante monumento di archeologia industriale, le acciaierie di Terni. Realizzato con i contributi di studiosi e tecnici di elevata qualificazione, il libro dà conto di una realtà estremamente complessa, perché caratterizzata da trasformazioni continue a ogni riguardo, dalle tipologie impiantistiche alle strutture, fino ai cicli produttivi, e perché proiettata in modo pervasivo sulla città e sul territorio con effetti di profonde modificazioni paesaggistiche." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:40   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Todi. Dipinti" ;
+        dcterms:description  "Nel 1997, dopo ingenti lavori che hanno interessato l'edificio e tutti gli oggetti che vi erano raccolti, il museo di Todi, uno dei maggiori dell'Umbria, è stato finalmente restituito al pubblico. Nel 1998 vede la luce il catalogo scientifico dei dipinti, che va ad aggiungersi al volume dedicato alla raccolta di numismatica, pubblicato nel 1991. I saggi introduttivi ricostruiscono la storia della pinacoteca attraverso una rigorosa analisi della testimonianze storiche. Il catalogo segue passo passo il nuovo allestimento del museo. Esaustivi apparati completano il volume." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:41   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Regionale della Ceramica di Deruta. Ceramiche policrome, a lustro e terrecotte di Deruta dei secoli XV e XVI" ;
+        dcterms:description  "Dedicato al materiale fittile dei secoli XV e XVI conservato nel Museo Regionale della Ceramica di Deruta, questo volume della collana raccoglie una serie di contributi che analizzano gli aspetti produttivi, storici, artistici e culturali della tradizione ceramica a Deruta e in tutto il territorio umbro." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:42   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale di Bevagna" ;
+        dcterms:description  "Questo volume della serie propone il catalogo delle opere pittoriche raccolte nella Pinacoteca Comunale di Bevagna, offrendo al lettore una preziosa sintesi di ricerche e studi che arricchiscono notevolmente la conoscenza storica e artistica della città umbra e del suo territorio, specialmente nel periodo compreso tra XVI e XVIII secolo." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:43   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Regionale della Ceramica di Deruta. Ceramica greca, italiota ed etrusca, Terrecotte, lucerne e vetri" ;
+        dcterms:description  "Questo volume è dedicato a al materiale più antico conservato nel Museo Regionale della Ceramica di Deruta: reperti fittili di tradizione apula, etrusca e romana che provengono da collezioni private acquisite nel corso dell'ultimo secolo. Dopo un saggio introduttivo che ricostruisce la formazione delle raccolte, viene presentato il catalogo dei pezzi, suddivisi per classi e tipologie ceramiche secondo un approccio scientifico di tipo archeologico." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:44   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte comunali di Assisi. Monete, gettoni, medaglie, sigilli, misure e armi" ;
+        dcterms:description  "Il presente lavoro permette, nei limiti propri di un volume, di prendere finalmente visione e conoscenza della raccolta numismatica assisana: monete, pesi monetali, tessere mercantili, gettoni, medaglie, coni e stampi metallici, sigilli, misure lineari e per laterizi, armi e ferri lavorati, tutti di grande valore storico e archeologico. Introduce il volume un saggio che traccia la storia dell'istituzione museale ad Assisi e del medagliere. Segue quindi il catalogo scientifico degli oltre cinquecento pezzi, tutti rigorosamente muniti di scheda e riproduzione fotografica." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:45   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo civico di Gualdo Tadino. Rocca Flea 1" ;
+        dcterms:description  "Questo volume della collana è dedicato alle raccolte museali di Gualdo Tadino, che in seguito al terremoto del 1997 sono state riordinate e collocate in una nuova sede espositiva, la Rocca Flea, sottoposta a un complesso intervento di restauro. Accanto al patrimonio artistico facente parte del Museo civico - dipinti, materiali lapidei, sculture, arredi civili ed ecclesiastici, tessuti - il libro presenta anche l'apparato pittorico che decora il complesso della Rocca." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:46   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale “Orneore Metelli” di Terni. Dipinti e sculture del XIX e XX secolo" ;
+        dcterms:description  "Questo volume della serie è dedicato alla sezione contemporanea della pinacoteca di Terni. Il catalogo delle opere è preceduto da alcuni saggi introduttivi che ricostruiscono le vicende costitutive della raccolta, offrendo un'interessante panoramica sulla storia di una città che al poderoso e rapido processo di industrializzazione deve tanta parte non solo del proprio aspetto urbano, ma anche del clima culturale e artistico." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:47   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale “Orneore Metelli” di Terni. Dipinti, sculture stampe e arredi dall'VIII al XIX secolo" ;
+        dcterms:description  "Questo volume della serie, che prende in esame le opere incluse tra l'alto medioevo e il XIX secolo conservate presso la Pinacoteca Orneore Metelli di Terni, documenta l'importanza e la ricchezza dell'arte locale del periodo più antico, spesso sottovalutato e addirittura sconosciuto in una città tutta proiettata sul versante della modernità industriale. Il catalogo dei pezzi - dipinti, sculture, cartoni, stampe, materiali lapidei e arredi - è preceduto da un breve profilo della storia dell'arte locale e da un capitolo che ricostruisce le vicende delle collezioni comunali ternane." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:48   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pinacoteca comunale “Orneore Metelli” di Terni. Medagliere" ;
+        dcterms:description  "Il presente volume è dedicata alla pregiata collezione di monete, sigilli e timbri di proprietà della Pinacoteca 'Orneore Metelli' di Terni e rappresenta di fatto il primo tentativo di porre ordine, con un certo scrupolo scientifico e filologico, a una raccolta che comprende testimonianze numismatiche delle età più diverse: dalla Roma repubblicana all'età medievale. I duecentosessanta pezzi sono muniti di scheda storico critica e documentazione fotografica. Il lavoro di catalogazione di agevole consultazione consente di scoprire una raccolta di cui forse molti ignoravano l'esistenza, in quanto non è mai stata fino a oggi esposta al pubblico." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:49   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte comunali di Assisi. Disegni 1" ;
+        dcterms:description  "Con questa pubblicazione prende inizio, nell'ambito della collana del Catalogo Regionale dei Beni Culturali dell'Umbria, la serie dei cataloghi dedicati alle collezioni di disegni. Il notevole fondo appartenente alle Raccolte Comunali di Assisi si segnala per il gran numero di disegni seicenteschi tutti della medesima provenienza e in gran parte riferibili alla produzione di uno stesso maestro, Cesare Sermei, o alla sua bottega. La rappresentazione che la curatrice del volume Giovanna Sapori offre del Sermei e dell'ambiente artistico assisano del XVII secolo, parallelamente alla riflessione sui procedimenti d'elaborazione delle opere, ottiene una chiara puntualizzazione circa le oscillazioni dell'iconografia francescana in epoca post-tridentina e individua un nuovo campo di riferimento per la geografia artistica locale. Non potendo includere in un unico volume gli oltre mille fogli della collezione comunale, si è deciso di dedicare un primo volume ai disegni del Seicento, e un secondo, che seguirà a breve, a quelli compresi tra il XVII e il XIX secolo, nonché a un nucleo di stampe e matrici. La catalogazione scientifica dei singoli disegni comprende schede storico critiche e una scrupolosa documentazione fotografica, oltre a un'importante apparato documentario sulle carte e filigrane." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:50   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Archeologia e Arte in Umbria e nei suoi musei" ;
+        dcterms:description  "Questo volume della serie è dedicato alla rete museale umbra (siti archeologici, pinacoteche, raccolte private, gallerie) e al loro patrimonio artistico. Un panorama sorprendente per ricchezza di materiali e ampiezza cronologica. La presente pubblicazione ha l'obiettivo di offrire una vue d'ensemble, accurata nelle descrizioni e minuziosa nel racconto storico, di tutto ciò che un appassionato di storia o di arte non può lasciarsi sfuggire." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:51   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte comunali di Assisi. Materiali archeologici, Cultura materiale, antichità egizie" ;
+        dcterms:description  "Questo volume è il primo dedicato ai materiali archeologici: ceramiche, metalli, vetri e oggetti in osso. L'opera dà conto di anni di ricerche e scavi in città e territori limitrofi, riuscendo a ricomporre quel complesso di relazioni e testimonianze andate perdute per la mancata sistematicità degli interventi di scavo ottocenteschi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:52   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte della città di Perugia. Collezione Valentino Martinelli" ;
+        dcterms:description  "Il presente volume, relativo alla collezione donata da Valentino Martinelli alle raccolte comunali di Perugia, apre la serie di titoli sulle raccolte comunali e si lega all'inaugurazione dell'allestimento espositivo di queste importanti opere, in Palazzo della Penna. E' l'avvio, in concreto, dell'ambizioso progetto di riorganizzazione dei musei perugini. Il lascito Martinelli è di enorme pregio, sia per le opere del Barocco romano sia per i volumi, le foto e i documenti di archivio che lo corredano. Nel volume sono messi in risalto sia il pregio delle sculture, dipinti, disegni e incisioni, medaglie e oggetti di culto, sia lo straordinario profilo intellettuale di Martinelli." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:53   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Fornaci in Umbria. Un itinerario di archeologia industriale." ;
+        dcterms:description  "'Di acqua, di terra, di fuoco' è il titolo del saggio introduttivo a questo volume sulle fornaci in Umbria. E' un richiamo ad elementi originari, a un'attività che si perde nella notte dei tempi, a cui gli uomini si sono sempre dedicati. Il territorio umbro è particolarmente ricco di testimonianze: ancora oggi è possibile vedere, ai margini delle città e in prossimità di boschi e fiumi, strutture più o meno antiche, un tempo utilizzate per la cottura e l'essiccazione di mattoni, coppi e tegole. I volumi sinora pubblicati sono stati dedicati soprattutto al patrimonio storico-artistico presente all'interno della rete museale. Questo, invece, riguarda beni storico-culturali, in quanto testimonianze di vita produttiva appartenenti alla storia di una comunità." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:54   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo civico di Gualdo Tadino. Rocca Flea 2" ;
+        dcterms:description  "A meno di due anni dall'uscita del primo volume di catalogo del Museo Civico di Gualdo Tadino vede la luce questo secondo titolo a esso dedicato, in cui, accanto alla bella collezione di ceramiche, viene presentata la notevole raccolta archeologica comprensiva dei materiali di proprietà comunale e i quelli rinvenuti in occasione degli scavi condotti nell'area gualdese della Soprintendenza per i beni archeologici dell'Umbria." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:55   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Bronzetti votivi" ;
+        dcterms:description  "Questo volume, il cinquantaquattresimo, è dedicato ai bronzetti votivi del Museo Claudio Faina di Orvieto, il cui patrimonio è già stato indagato in volumi precedenti, dedicati alle importanti raccolte numismatica e ceramica. La maggior parte dei bronzetti, di fattura etrusca, umbra e romana, proviene dalla raccolta ottocentesca dei conti Mauro ed Eugenio Faina. Una collezione radunata con grande attenzione alle tipologie, alla varietà delle raffigurazioni, poste in primo piano rispetto alla classificazione scientifica, secondo lo spirito del tempo. Ciò aumenta il valore e l'interesse di una schedatura condotta con criteri moderni. La parte dedicata ai bronzetti è preceduta da un testo dedicato al recente allestimento museale e alla sue finalità." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:56   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Fondazione Cassa di Risparmio di Perugia. Le sedi e la collezione" ;
+        dcterms:description  "Da circa vent'anni la Cassa di Risparmio di Perugia ha con intelligenza e lungimiranza devoluto parte del suo patrimonio all'acquisizione di opere d'arte. Quanto fino ad oggi raccolto rappresenta un'interessante testimonianza della scuola pittorica umbra dal Quattrocento al Settecento. La collezione comprende circa 40 dipinti di autori come Perugino, Niccolò di Liberatore, Gian Domenico Cerrini, Pietro Montanini, Giacinto Boccanera, Giovanni Baglione, Ippolito Borghesi e Francesco Allegrini." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:57   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Accademia di Belle Arti di Perugia. Disegni di Jean Baptiste Wicar. 1" ;
+        dcterms:description  "Jean-Baptiste Wicar (1762-1834) fu una figura di spicco del mondo cosmopolita dell'arte e del collezionismo italo-francese tra la fine del Settecento e i primi dell'Ottocento. Nato a Lille, trascorse in Italia gli anni tormentati della Rivoluzione francese, delle guerre napoleoniche, dell'Impero e della Restaurazione. Grande conoscitore e collezionista di antichi disegni italiani, fu tra i disegnatori più brillanti della scuola neoclassica francese, anello di una catena che da David - di cui fu peraltro l'allievo - conduce fino a Ingres. Il presente volume è il primo dei due dedicati al cospicuo fondo di disegni dell'artista francese conservato presso l'Accademia di Belle Arti di Perugia. Il catalogo si articola in due sezioni: 'Dal disegno all'opera compiuta', che analizza, anche attraverso una nutrita serie di confronti, i fogli preparatori per opere conservate e non, e 'Il disegno come opera compiuta' che raccoglie soprattutto studi di ritratti e di paesaggi. Completa il volume un'utilissima appendice dedicata all'analisi delle carte e delle filigrane." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:58   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Accademia di Belle Arti di Perugia. Disegni di Jean Baptiste Wicar. 2" ;
+        dcterms:description  "Secondo volume dedicato al nucleo di disegni dell'artista conservato presso l'Accademia di Belle Arti di Perugia. Dopo il primo, dedicato a disegni preparatori per dipinti, sia reperiti che documentati, per ritratti e per paesaggi, l'analisi si estende al tema del disegno come pratica di studio e come ricognizione del patrimonio antiquario e artistico italiano mediante la copia disegnata." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:59   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte comunali di Assisi. Materiali archeologici. Iscrizioni, sculture, pitture, elementi architettonici" ;
+        dcterms:description  "Questo volume è il primo dedicato ai materiali archeologici: ceramiche, metalli, vetri e oggetti in osso. L'opera dà conto di anni di ricerche e scavi in città e territori limitrofi, riuscendo a ricomporre quel complesso di relazioni e testimonianze andate perdute per la mancata sistematicità degli interventi di scavo ottocenteschi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:60   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Bevagna. Monete" ;
+        dcterms:description  "Questo volume dà conto dell'ingente patrimonio in vista della sua ricomposizione e definitiva sistemazione nel ricostituito e ampliato museo civico. Composto da 911 denari d'argento, il tesoretto, insieme all'altro rinvenuto nel 1980 nella stessa zona della città e ancora conservato presso la Soprintendenza Archeologica, costituisce un documento di elevato interesse storico per il periodo tardo-repubblicano di Mevania." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:61   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolte comunali di Assisi. Disegni 2" ;
+        dcterms:description  "Questo è il secondo volume dedicato all'ingente collezione di disegni di proprietà del Comune di Assisi. Contiene opere eseguite tra il diciassettesimo ed il diciannovesimo secolo; di particolare rilievo è il gruppo di disegni di Francesco Appiani d'Ancona." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:62   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Vasellame" ;
+        dcterms:description  "Il volume, di Alessandra Caravale, è dedicato alla collezione archeologica del Museo Faina di Orvieto, in particolare al vasellame bronzeo - circa duecento pezzi - presenti all'interno di questa prestigiosa e per molti versi unica raccolta, alla cui catalogazione sono già state dedicate numerose monografie apparse sempre all'interno di questa collana di studi. Il vasellame bronzeo analizzato e schedato con perizia in questo catalogo getta uno sguardo originale sulle abitudini di vita delle popolazioni che lo utilizzavano." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:63   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Bettona. Materiali archeologici raccolta archeologica." ;
+        dcterms:description  "Dopo il volume dedicato alle sue collezioni storico-artistiche, il Museo di Bettona si dota del catalogo sistematico della raccolta archeologica, curato così come l’allestimento museale, da Simonetta Stopponi. Numerose le classi di materiali: dalle ceramiche alle terrecotte architettoniche, dai metalli alle iscrizioni e statue di epoca romana." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:64   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Buccheri" ;
+        dcterms:description  "Situato nel medievale palazzo Faina, il Museo è costituito dalla raccolta archeologica riunita nel 1865 dal conte Mauro Faina. Questo volume illustra in particolare la ricca serie di buccheri, forme vascolari evidentemente legate al mondo del banchetto: calici, kantharoi, coppette" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:65   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Galleria Civica d'Arte Moderna di Spoleto" ;
+        dcterms:description  "Il volume presenta la cospicua raccolta del museo, riaperto nel 2000 nella nuova sede di palazzo Collicola. Vi sono raccolte opere di famosi artisti italiani e stranieri della scena contemporanea tra cui Calder, Moore, Chadwick, Consagra, Leoncillo. Il libro è corredato da saggi introduttivi sulla costituzione della raccolta e sul Premio Spoleto" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:66   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Antiquarium di Fossato di Vico. Materiali archeologici, Iscrizioni, sculture, elementi architettonici, ceramica, monete." ;
+        dcterms:description  "Una panoramica completa sull'Antiquarium di Fossato di Vico, noto per le sue importanti e pregiate le iscrizioni umbre e romane. il volume fa parte del progetto che la Regione Umbria ha intrapreso ormai da decenni relativamente alla catalogazione sistematica dei beni culturali presenti sul territorio. Da tale attività è nata una collana di libri che intende presentare il frutto di un impegno rivolto alla salvaguardia e alla conoscenza di un patrimonio insostituibile per la regione e per l'intero paese. Introdotto da saggi sull'antica Helvillum e la via Flaminia e sulla storia degli scavi, il volume offre una completa panoramica di quanto esposto nell'Antiquarium di Fossato di Vico. Tra i numerosi materiali spiccano per importanza e pregio le rare iscrizioni umbre e romane" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:67   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Opera del Duomo di Orvieto. Tessere mercantili medievali" ;
+        dcterms:description  "Il volume, che è dedicato alla personale collezione di tessere mercantili medievali di Domenico Tordi, da lui stesso donata al Museo dell’ Opera del Duomo di Orvieto, rappresenta una raccolta rara e tra le più esaustive e cospicue d’ Italia. Curato da Lucia Tavaini e Marco Tagliaferri, il catalogo offre preziosi argomenti di approfondimento grazie alla sua vasta campionatura e alla presenza di numerosi inediti, fornendo un importante spunto al dibattito critico, tuttora aperto, sulla funzione delle tessere mercantili." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:68   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Regionale della Ceramica di Deruta. Ceramiche di Deruta dei secoli XVII e XVIII" ;
+        dcterms:description  "Il catalogo, curato da Giulio Busti e Franco Cocchi, con un saggio introduttivo di Bruno Toscano, si aggiunge alle precedenti pubblicazioni dedicate alla vastissima collezione del Museo Regionale della Ceramica di Deruta. Il volume documenta il processo evolutivo della ceramica derutese verso una produzione d’uso meno costosa, ma alla quale si affianca il miglioramento delle tecniche. Tra acquisizioni, donazioni e depositi sono oggi 415 le ceramiche artistiche catalogate, risalenti per la maggior parte ai secoli XVII e XVIII." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:69   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo comunale di Terni. Raccolta archeologica – Sezione romana" ;
+        dcterms:description  "Un ricco volume sulla sezione archeologica del Museo, che offre straordinarie testimonianze di epoca romana: la raccolta comprende marmi, iscrizioni e sarcofagi romani." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:70   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Antiquarium Comunale di Baschi" ;
+        dcterms:description  "L’ Antiquarium comunale di Baschi è stato creato in funzione dell’esposizione dei materiali rinvenuti grazie all’attività di scavo iniziata dal 1995 nella vicina località di Scoppieto. Si tratta di un piccolo museo con scopo prettamente didattico volto a evidenziare le emergenze archeologiche in tutto il territorio del Comune. I reperti più significativi rinvenuti nello scavo di Scoppieto - vasellame fine da mensa, lucerne, vasellame da cucina e laterizi - sono esposti nelle vetrine del piano terra." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:71   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Le Cartiere della Valle del Menotre. Un itinerario di archeologia industriale a Pale (Foligno)" ;
+        dcterms:description  "I grandi opifici e la grande manualità degli artigiani umbri sono stati elementi cardine per la diffusione del prodotto cartaceo in Italia. Una delle punte di diamante per la diffusione cartacea è senza dubbio le prestigiose cartiere di Pale. La carta qui prodotta era infatti ritenuta un prodotto di grande pregio e se Foligno ha il vanto di aver pubblicato la prima edizione della Divina Commedia, lo deve soprattutto al fatto che nelle sue vicinanze operavano appunto le cartiere di Pale." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:72   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo della fabbrica di maioliche Grazia di Deruta" ;
+        dcterms:description  "Deruta è un piccolo comune in provincia di Perugia, noto per la produzione delle ceramiche artistiche. Posto su una collina a ridosso dell'antica cinta muraria si trova il borgo più vecchio da dove, salendo per una delle tre porte dell'antico sistema difensivo, si accede al centro storico. L'attività di una serie di artigiani derutesi fra cui Domenico e Ubaldo Grazia, fecero di Deruta il massimo centro regionale di produzione ceramica. Questo prezioso volume documenta con testi e immagini riferite alle creazioni ceramiche tutta l'attività produttiva dagli esordi ad oggi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:73   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo d'Arte Moderna e Contemporanea 'Aurelio De Felice' di Terni. Disegni e grafica del XX secolo." ;
+        dcterms:description  "Con questo volume curato da Barbara Cinelli, dedicato a Disegni e grafica del XX secolo conservati presso il nuovo centro d’arte di Terni (CAOS - Centro Arti Opificio Siri), si completa la pubblicazione delle raccolte ternane di arte contemporanea, iniziato con il catalogo Dipinti e sculture del XIX e XX secolo, curato da Jolanda Nigro Covre. Il catalogo raccoglie una vasta collezione di 559 opere, schedate e suddivise in due nuclei principali: le opere degli artisti europei che provengono tutte dalla donazione effettuata da Aurelio De Felice nel 1986, ove sono presenti fogli di. Braque, Carrà, Chagall, Ernst, Kandinsky, Lèger, Mirò, Picasso, Severini, e le opere degli artisti italiani, ivi compreso De Felice, per quei fogli che non erano stati inseriti nel precedente volume, in cui prevalgono opere di artisti ternani, in parte donate dagli autori stessi ed in parte giunte in collezione per acquisti pubblici." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:74   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Molini e Pastifici" ;
+        dcterms:description  "Con questo volume si inaugura la nuova serie di pubblicazioni della collana in una nuova veste grafica, più attuale, grazie all’applicazione del nuovo marchio dedicato al sistema museale della Regione e agli accorgimenti utilizzati dal nuovo editore. Il volume di archeologia industriale dedicato alla memoria collettiva: è l’esito di una ricerca sugli ultimi tre molini a cilindri dell’Umbria. In particolare il focus critico, con fotografie, dati stirici, note d’archivio, ecc rigurdano il Pastificio Petrini-Spigadoro di Bastia, il Molino e pastificio Ponte di Ponte San Giovanni ed il Molino e Pastificio Cappelletti di Ponterio a Todi." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:75   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Opera del Duomo di Orvieto. Ceramiche" ;
+        dcterms:description  "Il Catalogo è dedicato alla collezione di ceramiche medievali e moderne del Museo dell'Opera del Duomo di Orvieto. La preziosa raccolta, acquisita dall'Opera del Duomo nella prima metà del secolo scorso attraverso donazioni e acquisti, conserva un notevole nucleo di maioliche arcaiche e illustra, nella varietà delle tipologie e delle decorazioni, la storia di questa antica e tradizionale manifattura orvietana." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:76   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo della città in Palazzo Eroli a Narni" ;
+        dcterms:description  "Il catalogo Museo della città in Palazzo Eroli a Narni è interamente dedicato alla raccolta che si trova all’interno del seicentesco palazzo della famiglia narnese Eroli e costituisce non solo una catalogazione puntuale della raccolta, ma offre un momento di analisi e sintesi della storia della città di Narni e di questa parte del territorio umbro. E’ possibile conoscere i reperti archeologici custoditi nel palazzo risalenti dalla preistoria e dalla protostoria, così come quelli dell’antichità romana e del primo Medioevo. Le stesse opere d’arte della pinacoteca acquisiscono, grazie a questo catalogo, una valenza che le proietta su un piano diverso dal precedente, un piano che consente ad ogni pezzo conservato di esprimere in maniera compiuta la propria natura di opera d’arte." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:77   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo di Palazzo Santi Chiesa di Sant'Antonio Abate. Circuito museale di Cascia." ;
+        dcterms:description  "Il catalogo presenta le collezioni archeologiche e artistiche conservate nel Museo civico ospitato in Palazzo Santi e, insieme, il ciclo di affreschi tre-quattrocenteschi della chiesa di Sant’Antonio. Le sculture lignee, tra le quali il pregevole gruppo di Tobiolo e l’Angelo, sono di inestimabile valore e spiccano tra le cospicue raccolte di quadri, arredi lignei e tessuti. Si dà anche conto, nella sezione archeologica degli insediamenti preromani in Valnerina e degli scavi recenti realizzati nella località Villa San Silvestro." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:100  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "La Deposizione lignea in Europa. L'immagine, il culto, la forma" ;
+        dcterms:description  "Il primo completo repertorio dedicato a gruppi lignei di deposizione italiani nel mondo. Oltre 700 immagini a colori e in bianco e nero, con relazioni di restauro e studi sui legni e sulle tecniche di lavorazione. Il volume comprende il catalogo della mostra 'L'immagine, il culto, la forma. Antichi gruppi lignei di Deposizione (secoli XIII-XIV)', presentata nel Museo comunale di San Francesco a Montone nel 1999, gli atti del convegno internazionale di studi tenutosi nell'occasione e una sezione dedicata a nuovi contributi. I gruppi di Deposizione costituiscono uno dei soggetti più interessanti del patrimonio tardo medievale di arte sacra e il volume ne offre una ricognizione completa." ;
+        schema:category      "Studi e Prospettive" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:101  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Da Lille a Roma. Jean-Baptiste Wicar e l'Italia. Disegni dell'Accademia di Belle Arti di Perugia e del Museo di Lille" ;
+        dcterms:description  "Jean-Baptiste Wicar (1762-1834) fu una figura di spicco del mondo cosmopolita dell'arte e del collezionismo italo-francese tra la fine del Settecento e i primi dell'Ottocento. Nato a Lille, trascorse in Italia gli anni tormentati della Rivoluzione francese, delle guerre napoleoniche, dell'Impero e della Restaurazione. Grande conoscitore e collezionista di antichi disegni italiani, fu tra i disegnatori più brillanti della scuola neoclassica francese, anello di una catena che da David - di cui fu peraltro l'allievo - conduce fino a Ingres. Questo catalogo, edito in occasione della mostra di Perugia a Palazzo della Penna, presenta una selezione del fondo di disegni conservato presso l'Accademia di Belle Arti di Perugia, alcuni dipinti provenienti dalla Galleria Nazionale dell'Umbria e alcuni disegni e dipinti del Museo di Lille: 109 opere di grande qualità, tutte munite di ampie schede critiche comprendenti spesso opere di confronto dello stesso Wicar, di David, Poussin, Gérard. Di grande interesse è l'antologia di documenti e lettere trascritti da Fedora Boco. I saggi in apertura sono di Pierre Rosenberg, Maria Teresa Caracciolo e Fedora Boco." ;
+        schema:category      "Studi e Prospettive" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:102  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Matteo da Gualdo. Rinascimento eccentrico tra Umbria e Marche" ;
+        dcterms:description  "Matteo da Gualdo, singolare figura di pittore-notaio vissuto a Gualdo Tadino tra il 1435 e il 1507, è esponente di spicco di quel gusto 'eccentrico' di inclinazione espressionistica e decorativa che si diffuse in una vasta area dell'Italia centro-settentrionale lungo percorsi assai differenziati, uno dei quali allaccia l'Umbria all'area adriatica attraverso le Marche. Il catalogo approfondisce la conoscenza di questo fenomeno attraverso l'analisi del nucleo di opere dell'artista custodite nel museo civico di Gualdo Tadino e la proposizione di opere di artisti come Bartolomeo di Tommaso, Niccolò Alunno, Nicola di Maestro Antonio, Carlo Crivelli e Pietro Alemanno." ;
+        schema:category      "Studi e Prospettive" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:103  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "1909 Tra collezionismo e tutela. Conoisseur, antiquari e la ceramica medievale orvietana" ;
+        dcterms:description  "Nel 1909, l’antiquario Alexandre Imbert dava alle stampe, a Roma, col titolo Ceramiche orvietane dei secoli XIII e XIV. Note su Documenti, una ricerca commissionata al giovane archeologo orvietano Pericle Perali, dedicando il volume, oggi annoverato fra gli “incunaboli” degli studi sulla maiolica italiana, al magnate americano John Pierpont Morgan. Nello stesso anno, il 20 giugno, dopo un articolato dibattito e un complesso iter legislativo, veniva promulgata la legge n. 364 “Per le antichità e belle arti”, la prima legge di tutela con l’obiettivo di definire l’accezione del “bene culturale”, quale patrimonio specifico e inalienabile della Nazione.  I due eventi, legati non solo cronologicamente, dalla ricorrenza centenaria sono alla base dell’esposizione, curata da Lucio Riccetti, che, presentando oggetti d’arte, fotografie d’epoca, libri e documenti originali, intende richiamare il grande fervore e le tendenze del gusto per l’arte italiana del Medioevo e del Rinascimento, proprie del mercato antiquario internazionale in quel primo Novecento." ;
+        schema:category      "Studi e Prospettive" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:142  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Francesco d'Assisi. Storia e Arte." ;
+        dcterms:description  "Otto secoli fa nasceva Francesco d’Assisi. Il movimento di rinascita spirituale che egli introdusse all’interno del Medio Evo europeo ebbe una portata vastissima, influendo sulle condizioni sociali, economiche, artistiche e politiche dei luoghi toccati dalla predicazione francescana. L’Umbria è stata evidentemente la regione più direttamente investita dal rinnovamento religioso e artistico, tanto da assumere, nel XIII e XIV secolo, ti nome di Provincia Sancti Francisci. Degli effetti di questo movimento decisivo viene qui attuata una ricognizione su più livelli: il contesto storico, culturale e sociale al cui interno prese corpo la vicenda biografica di Francesco; il processo di diffusione degli insediamenti francescani; sia sul piano materiale (chiese, conventi, monasteri e proprietà fondiarie) che su quello culturale (devozione, arte, mentalità) e istituzionale (diocesi, parrocchie, monasteri); il delinearsi dell’immagine di Francesco d’Assisi nelle leggende agiografiche, nella iconografia su tavola e affresco, nella liturgia e nella musica sacra." ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:144  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pittura del seicento. Ricerche in Umbria" ;
+        dcterms:description  "-" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:140  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Pittura in Umbria tra il 1480 e il 1540" ;
+        dcterms:description  "Premesse e sviluppi nei tempi di Perugino e Raffaello" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:108  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Scrivere etrusco" ;
+        dcterms:description  "Catalogo della mostra ”Scrivere etrusco: dalla leggenda alla conoscenza, scrittura e letteratura nei massimi documenti della lingua etrusca”, tenuta a Perugia nel maggio - settembre 1985. Illustrato con diverse fotografie in b / n e a colori." ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:109  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Gens Antiquissima Italiae – Antichità dall'Umbria in Vaticano" ;
+        dcterms:description  "Recuperare, riunire, ricollocare nello spazio e nel tempo frammenti del passato, per restituirli al loro contesto originario. Questo era lo spirito della mostra Antichità dall’Umbria in Vaticano – tenutasi in Vaticano alla fine degli anni ’80 del secolo scorso – fedelmente riproposto in questo catalogo esclusivamente in lingua italiana. Protagonisti dell’evento e del volume sono i più significativi esemplari etruschi, italici e romani tutti di provenienza umbra, già presenti nei secoli scorsi nelle raccolte pontificie e romane, poi raccolti per la maggior parte nel Museo Gregoriano Etrusco fin dall’Ottocento. Introdotte da una ricostruzione storica della formazione della raccolta – gli scavi, la fondazione del Museo, la musealizzazione delle opere – le sezioni del catalogo affrontano diverse tematiche: la storia antica dell’Umbria dal IX al III secolo a.C., i luoghi e i monumenti più rappresentativi di ogni epoca, nonché gli sviluppi socio-culturali riguardanti la religione, l’arte e le tradizioni. Vasi, fibule, statue, bassorilievi. Ceramica, bronzo, marmo, terracotta. I reperti, tra cui il Marte di Todi, la Testa di Zeus rinvenuta a Otricoli e il Putto Bronzeo di Sanguineto sul Trasimeno, sono presentati attraverso essenziali schede tecniche, corredate da numerose fotografie, con descrizioni e informazioni riguardanti la provenienza e lo stato di conservazione. Chiudono il volume un elenco schematico degli oggetti conservati nelle collezioni vaticane e un’accurata bibliografia. Antichità dall’Umbria in Vaticano, Braccio di Carlo Magno, Città del Vaticano, 21 novembre - 22 gennaio 1989. Fu la prima delle mostre previste dal progetto Gens Antiquissima Italiae, posta sotto l’Alto Patronato del Presidente della Pontificia Commissione per lo Stato della Città del Vaticano." ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:110  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Gens Antiquissima Italiae – Antichità dall'Umbria a Budapest e Cracovia" ;
+        dcterms:description  "La mostra: le ragioni, il progetto, la visita Francesco Roncalli Orvieto e Perugia etnische Simonetta Stopponi Gli Umbri: territorio, cultura e societa Laura Bonomi Ponzi 1. Gli insediamenti d'etŕ del ferro di tipo villanoviano in Umbria e i loro esiti urbani (IX-VI sec. a.C.) 2. Le presenze umbre a oriente del Tevere 3. Volsinii. Arte urbana e artigianato 4. I luoghi e le forme del culto fra l'Etruria interna e l'Umbria 5. Artigianato ellenistico fra Volterra, Chiusi e Perugia: le urne funerarie 6. Scrittura in Umbria alle soglie della romanizzazione 7. La romanizzazione dell'Umbria Antichita dall'Umbria a Budapest Janos Gyorgy Szilagyi Il collezionismo di reperti umbri in Polonia Witold Dobrowolski Bibliografia" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:111  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Gens Antiquissima Italiae – Antichità dall'Umbria a Leningrado ITA / RUS" ;
+        dcterms:description  "La mostra: le ragioni, il progetto, la visita Francesco Roncalli Orvieto e Perugia etnische Simonetta Stopponi Gli Umbri: territorio, cultura e societa Laura Bonomi Ponzi 1. Gli insediamenti d'etŕ del ferro di tipo villanoviano in Umbria e i loro esiti urbani (IX-VI sec. a.C.) 2. Le presenze umbre a oriente del Tevere 3. Volsinii. Arte urbana e artigianato 4. I luoghi e le forme del culto fra l'Etruria interna e l'Umbria 5. Artigianato ellenistico fra Volterra, Chiusi e Perugia: le urne funerarie 6. Scrittura in Umbria alle soglie della romanizzazione 7. La romanizzazione dell'Umbria Antichita dall'Umbria a Budapest Janos Gyorgy Szilagyi Il collezionismo di reperti umbri in Polonia Witold Dobrowolski Bibliografia" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:112  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Gens Antiquissima Italiae – Antichità dall'Umbria a New York ITA / INGL" ;
+        dcterms:description  "Città del Vaticano, Piazza San Pietro, Braccio di Carlo Magno, 21 novembre 1988 - 22 gennaio 1989. Milano, 1989; br., pp.142, ill.b / n col., cm 21x28. italiano 88 - 435 - 272" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:113  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Il paesaggio nella pittura umbro-marchigiana tra Cinquecento e Ottocento" ;
+        dcterms:description  "Per questa ultima mostra Zeri selezionò una cinquantina di dipinti e disegni nei quali il paesaggio è il protagonista assoluto." ;
+        schema:category      "Archeologia e arte antica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:114  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "L'Agontano, una moneta d'argento per l'Italia medievale. Convegno in ricordo di Angelo Finetti. Trevi (Perugia), 11-12 ottobre 2001" ;
+        dcterms:description  "Contentuti: L'agontano a Trevi e in Umbria : storia di un convegno / / Lucia Travaini -- -- Ricordo di Angelo Finetti / / Luigi Londei -- -- Alcune ipotesi sulla nascita e sul successo dell'agontano / / Andrea Saccocci -- -- L'agontano nella storia monetaria delle Marche / / Roberto Rossi -- -- Una monetazione marchionale nelle Marche? / / Michael Matzke -- -- L'agontano in Emilia Romagna : produzione e circolazione / / Emanuela Ercolani Cocchi -- -- L'agontano di Volterra / / Renato Villoresi -- -- Le emissioni di grossi della zecca aretina e la tipologia dell'agontano / / Franca Maria Vanni -- -- L'agontano di Massa di Maremma / / Massimo Sozzi -- -- L'agontano de Chiusi / / William R. Day, Lucia Travaini -- -- Influenze dell'agontano nel Regno di Napoli / / Lucia Travaini -- -- Le decime pontificie per la storia monetaria dell'Italia centrale / / Michele Chimienti -- -- Note conclusive / / Ugo Tucci -- -- L'agontano nei trattati di aritmetica e nei libri di mercatura / / Lucia Travaini -- -- Il presunto agontano di Giovanni Antonio Falletti conte di Benevello / / Giorgio Fea." ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:115  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Sculture “da vestire” - Nero Alberti da Sansepolcro e la produzione di manichini lignei in una bottega del Cinquecento" ;
+        dcterms:description  "Il volume è il catalogo della mostra di Umbertide (Museo di Santa Croce, 11 giugno - 6 novembre 2005) che mira a ricostruire l'attività di una bottega lignaria del XVI secolo, attiva nell'Italia centrale. Tra i suoi artefici spicca il Maestro di Magione, alias Nero Alberti di Sansepolcro. Il catalogo è arricchito da un capitolo dedicato alle tecniche disgnostiche e di restauro." ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:128  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 1 N° 01" ;
+        dcterms:description  "Sommario anno I numero 1/2008  • Presentazioni • Bollettino Regionale per i Beni Culturali dell'Umbria Fascicoli periodici e quaderni • Attività interistituzionali L'attività del Laboratorio di diagnostica di spoleto • Attività degli uffici periferici del Ministero per i beni e le attività culturali L'attività della Direzione Regionale per i Beni Culturali e Paesaggistici dell'Umbria - Vittora Garibaldi, Francesco Scoppola, Rocco Tricarico, Silvana Tommasoni, Alessandro Ferretti L'attività della Sopraintendenza per i Beni Archeologici dell'Umbria - Mariarosaria Salvatore L'attività della Sopraintendenza per i Beni Architettonici il Paesaggio, il Patrimonio Storico Artistico e Etnoantropologico dell'Umbria - Maurizio Galletti L'attività della Sopraintendenzaarchivistica per l'Umbria L'attività dell'Archivio di Stato di Perugia L'attività dell'Archivio di Stato di Terni • Attività della Regione Umbria per i beni culturali Ernesta Maria Ranieri • Articoli in lavorazione sui prossimi numeri del Bollettino" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:129  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 1 N° 02" ;
+        dcterms:description  "Sommario anno I numero 2/2008  • Editoriale Silvano Rometti, Francesco Scoppola • Contributi Datazione comparata - Pietro Scarpellini Indagini archeologiche sull'acropoli di Bettona (Pg) - Matelda Albanesi Sulla Fontana Maggiore di Perugia: questioni aperte. Con una nota su Il modello bronzeo della Fontana Maggiore di Giuseppe Minottini (1867-1876) - Attilio Bartoli Langeli, Tiziana Biganti Annibale Angelini (1810-1884): da 'pittore verniciaro' a 'pittore regio' - Claudia Pettinelli • Recensioni" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:130  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 2 N° 03" ;
+        dcterms:description  "Sommario anno II numero 3/2009  • Editoriale Giotto e la basilica superiore di San Francesco ad Assisi. Relazioni tra il ciclo assisiate e la decorazione pittorica della Sala dei Notari a Perugia - Pietro Scarpellini Perugia, Sala dei Notari: il programma dei dipinti - Irene Hueck • Direzione Regionale per i beni culturali e paesaggistici dell’Umbria Per i cento anni della legge di tutela del 1909 - Francesco Sisinni, Sante Serangeli, Elisabetta Spaccini, Giuseppe Fiengo, Adriano La Regina (con un’introduzione di Francesco Scoppola) Le principali attività Francesco Scoppola con Rocco Tricarico, Silvana Tommasoni, Katia Canti, Alessandro Ferretti, Antonella Polidoro • Archivio di Stato di Perugia Le principali attività - Paolo Franzese L’archivio di Walter Binni all’Archivio di Stato - Costanza Del Giudice L’intervento di disinfestazione di materiale archivistico, mediante trattamento anossico, nell’Archivio di Stato - Maria Grazia Bistoni Colangeli • Archivio di Stato di Terni Le principali attività - Marilena Rossi Caponeri L’Umbria per “nome e cognome”: dai libri parrocchiali alla rete per combattere il degrado naturale, accidentale e... culturale - Elisabetta David Archivi in rete - Luigi Di Sano Alla scoperta di nobili segreti... Le carte della famiglia Farrattini Pojani di Amelia - Letizia Salvatori Una giornata particolare: il «Premio Gisa Giani» - Aurelia Proietti Futuristi umbri nelle carte dell’Archivio Centrale dello Stato - Luisa Montevecchi Orvieto: dal passato il nuovo per la ricerca - Marilena Rossi Caponeri • Soprintendenza archivistica per l’Umbria Le principali attività - Mario Squadroni L’acquisizione di archivi privati di famiglie e di persone al patrimonio dello Stato - Emma Bianchi L’archivio dell’Accademia di belle arti “Pietro Vannucci” - Francesca Ciacci L’archivio della ThyssenKrupp acciai Terni S.p.A. - Patrizia Zucchetti L’archivio dell’ingegnere Paolo Basler: l’uomo della ferrovia Spoleto-Norcia - Alessandro Bianchi L’archivio della Azienda agraria Colle del Cardinale - Alessandro Bianchi Cerca gli archivi e navigali! - Rossella Santolamazza Il censimento degli archivi parrocchiali - Elisabetta Bogini • Soprintendenza per i beni archeologici dell’Umbria Scavi e scoperte 2008 - Maria Rosaria Salvatore Il Foro romano, l’antica piazza di Assisi - Maria Laura Manca Assisi, area archeologica sotto il complesso di Santa Caterina - Maria Laura Manca Gubbio, Mausoleo romano - Luana Cenciaioli Gubbio, il restauro del Mausoleo. Problematiche e soluzioni - Sergio Vergoni Perugia, località Strozzacapponi, rotatoria. Necropoli etrusca: la tomba “del letto funebre” - Luana Cenciaioli Spoleto, località Piazza d’Armi. Aree ATER e strada - Liliana Costamagna Todi, Duomo. Lavori 2008: notizie preliminari - Francesco Giorgi, Dorica Manconi • Soprintendenza per i beni storici, artistici ed etnoantropologici dell’Umbria Le principali attività - Vittoria Garibaldi • Soprintendenza per i beni architettonici e paesaggistici dell’Umbria Tutela, valorizzazione e gestione del paesaggio e dei beni architettonici nel territorio regionale dell’Umbria - Anna Di Bene Relazione attività svolta comprensorio ATO 1 - Roberto Minelli Iniziative e problematiche emerse nell'ambito della tutela dei beni culturali e del paesaggio annualità 2008-2009. Riparazione danni e restauri dopo gli eventi sismici del 1997 - Fabrizio Finauri, Valeriana Mazzasette Lo studio di fattibilità dell’ex ferrovia Spoleto-Norcia in una prospettiva di valorizzazione del territorio della Valnerina - Bruno Napoli • Regione Umbria Produzione editoriale - Elisabetta Spaccini Stato di attuazione del sistema museale dell’Umbria - Antonella Pinna Il Polo regionale umbro SBN e Sebina Open Library - Maria Vittoria Rogari La nuova stagione dei servizi bibliotecari: le biblioteche pubbliche di Orvieto e Spoleto - Maria Vittoria Rogari, Maria Luisa Salvadori, Carla Cesarini Il Master in Conservazione e Restauro delle Raccolte Librarie e Documentarie di Spoleto - Sergio Fatti IFLA 2009 - Olimpia Bartolucci 186 L’Umbria, la lettura e il mese nazionale del libro - Olimpia Bartolucci 188 Nascere con i libri - Olimpia Bartolucci" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:131  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 3 N° 04" ;
+        dcterms:description  "Sommario anno III numero 4/2010  • Presentazioni Silvano Rometti, Francesco Scoppola Claudio Ricci • Contributi L’architettura moderna: conoscerla, conservarla, restaurarla - Maria Carmela Frate Le strutture paraboliche di Assisi: ipotesi attributive - Francesco Scoppola L’opera di Pier Luigi Nervi tra architettura e ingegneria - Paolo Desideri Sistemi strutturali di legno quali prototipi per moderne strutture di acciaio e calcestruzzo - Gennaro Tampone Grandi strutture in legno ad arco - Massimo Mariani Il Nervi di Assisi - Pippo Ciorra" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:132  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 3 N° 05" ;
+        dcterms:description  "Sommario anno III numero 5/2010  • Editoriale Fabrizio Bracco, Francesco Scoppola • Contributi Una nuova opera del Pittore di Brygos - Marisa Scarpignato Materiali per la conoscenza di Spoletium cristiana - Liliana Costamagna Ancora sul cosiddetto “Fondo Gardone” dell’Archivio storico comunale di Perugia - Stefania Maroni Le cronache del Monastero dell’Annunziata o delle Bartolelle di Perugia - Elisabetta Bogini Ville e residenze di campagna nell’Umbria del Cinquecento. Primi risultati di una ricerca - Giovanna Donadoni  I documenti dei catasti realizzati fra XVIII e XIX secolo - Archivi di Stato di Perugia - Costanza Del Giudice - Sezione di Archivio di Stato di Assisi - Paola Monacchia - Sezione di Archivio di Stato di Foligno - Maria Rosaria Benvenuti, Vitaliano Bianchi - Sezione di Archivio di Stato di Gubbio - Raffaele Mastrini - Sezione di Archivio di Stato di Spoleto - Paolo Bianchi - Il restauro della documentazione catastale di età moderna e contemporanea - Maria Grazia Bistoni Colangeli - Saggio di bibliografia ragionata sui catasti del XVIII e XIX secolo a Perugia, Assisi, Foligno, Gubbio e Spoleto - Rita Liurni, Marcello Pitorri, Lodovica Sacilotto San Valentino patrono di Terni - Letizia Salvatori La tutela del patrimonio culturale immateriale. Spunti di riflessione in merito ad un’attività istituzionale del MiBAC - Alessandro Ferretti Nel centenario di Domenico Bruschi (1840-1910): pittore e patriota - Corrado Balducci" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:133  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 3 N° 06" ;
+        dcterms:description  "Sommario anno III numero 6/2010  • Presentazione Fabrizio Bracco, Francesco Scoppola Gabriele Baldelli Paolo Franzese  • Contributi La collezione Guardabassi a Perugia Cristina Salimbene Scarabei etruschi della collezione Guardabassi nel Museo Archeologico Nazionale dell’Umbria - Paolo Vitellozzi Mariano Guardabassi e l’Archivio di famiglia presso l’Archivio di Sato di Perugia - Paola Monacchia Bibliografia" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:134  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 4 N° 07" ;
+        dcterms:description  "Sommario anno IV numero 7/2011  • Presentazione Fabrizio Bracco, Wladimiro Boccali, Francesco Scoppola Un modello di ricerca globale: la chiesa di San Francesco al Prato nell’analisi di Valentina Borgnini - Emidio De Albentiis • Contributi La chiesa di San Francesco al Prato in Perugia: vicende costruttive e conservative dell’edificio e delle sue opere d’arte Valentina Borgnini Premessa Le vicende costruttive e conservative della chiesa 1.1 Il tempio di San Francesco al Prato 1.2 Vicissitudini della chiesa 1.3 Pietro Carattoli e la ricostruzione settecentesca 1.4 Requisizioni napoleoniche e successive soppressioni 1.5 VII centenario dalla morte di San Francesco: il restauro della facciata 1.6 Disfacimento della chiesa di San Francesco al Prato 1.7 Ultimi interventi di restauro San Francesco al Prato: il Pantheon di Perugia 2.1 Famiglie nobili perugine nel tempio francescano 2.2 Altari e cappelle tra la fine del XIII e il XVII secolo 2.3 Uno scrigno di opere d’arte 2.4 Altari e cappelle tra il 1683 e il 1787 2.5 Altari e cappelle tra il 1822 e il 1872 Approfondimenti 3.1 La collocazione dell’Incoronazione della Vergine di Raffaello nella cappella Degli Oddi 3.2 La cappella del Gonfalone già Degli Oddi 3.3 La Nicchia di San Francesco al Prato ed una perduta statua di San Bernardino 3.4 Il tema della Deposizione nel contesto della cappella di San Matteo  Note  Bibliografia" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:135  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 5 N° 08" ;
+        dcterms:description  "Sommario anno V numero 8/2012  • Presentazione Fabrizio Bracco, Francesco Scoppola Nico Nunzi  don Claudio Bosi  • Contributi   1 Il territorio Paesaggi umbri del passato. Otricoli, dal mare al fiume Il Tevere a Otricoli. Gli aspetti archeologici Il Tevere a Otricoli. Le acque e la loro regimentazione   2 La vita religiosa e artistica Le reliquie dei santi martiri otricolani Le confraternite di Otricoli La confraternita di San Giuseppe da Leonessa La cappella del Santissimo Sacramento nella chiesa parrocchiale di Santa Maria Assunta di Otricoli L’organo della collegiata di Santa Maria Assunta di Otricoli La chiesa e l’abbazia di San Vittore La chiesa della Madonna del Buon Consiglio in San Fulgenzio  3 La vita economica e sociale Aspetti di vita economica Il paesaggio agrario  I tessuti  4 Le fonti archivistiche e bibliografiche  Gli archivi ecclesiastici L’archivio storico del Comune di Otricoli L’archivio notarile di Otricoli Le fonti documentarie per la storia di Otricoli nell’Archivio di Stato di Roma Le fonti bibliografiche e manoscritte   • Schede di catalogo  Bibliografia" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:136  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 5 N° 09" ;
+        dcterms:description  "Sommario anno V numero 9/2012  • Editoriale Fabrizio Bracco, Francesco Scoppola  •Presentazione Saluto del Direttore Generale per le Biblioteche, gli Istituti culturali e il diritto d’autore - Rossana Rummo Testimonianze e iniziative a Milano e in Lombardia - Caterina Bon Valsassina Testimonianze e iniziative a Genova e in Liguria - Maurizio Galletti Testimonianze e iniziative a Perugia e in Umbria - Francesco Scoppola Alfredo De Poi e le celebrazioni alessiane - Antonio Carlo Ponti   • Perugia e l'Umbria al tempo di Galeazzo Alessi La vita culturale e artistica a Perugia al tempo di Galeazzo Alessi e la nascita dell’Accademia - Fedora Boco Il disegno della città. Perugia, 1540-1600 - Giovanna Chiuini Elementi di lettura e di raffronto nell’esame dell’Alessi architetto civile in patria - Fabio Palombaro Mete del percorso professionale di un “celebre architettore” perugino - Gian Paolo Picalarga Galeazzo Alessi e le fonti documentarie in Umbria - Paolo Franzese La ricerca nelle fonti umbre. Criteri e risultati - Costanza Del Giudice  •L'attività umbra di Galeazzo Alessi Documenti dell’Archivio di Stato di Perugia su Galeazzo Alessi - Marina Regni  Sant'Angelo della Pace e altre logge - Maria Carmela Frate L’oratorio di Sant’Angelo della Pace nei secoli - Gaia Rossetti Il chiostro delle Stelle nel complesso conventuale di San Pietro in Perugia - Claudio Minciotti Il portale del Leone. Recupero e consolidamento - Paolo Raspa Le logge di Galeazzo Alessi nel Palazzo dei Priori di Perugia - Giulio Ser-Giacomi  La committenza dei cardinali Ascanio Parisani e Tiberio Crispo. L’appartamento del legato pontificio a Palazzo dei Priori - Federica Zalabra La ��porta più magnifica che guarda il corso”. Il portale meridionale della cattedrale di Perugia - Paolo Belardi, Fabio Bianconi, Marco Armeni, Valeria Menchetelli, Sonia Merli, Bernardino Sperandio  Nuovi documenti su Galeazzo Alessi e Valentino Martelli - Alberto Maria Sartore Alessi progettista e consulente a Bastiola, Santa Maria degli Angeli, Assisi e Spello - Maria Biviglia, Federica Romani Galeazzo Alessi e la “casa Ludovici” in Assisi - Francesco Santucci Galeazzo Alessi ad Assisi: tra opere certe e attribuzioni - Francesca Vignoli La cupola di Santa Maria degli Angeli ad Assisi. Dalla statica grafica all’analisi numerica - Nicola Cavalagli, Vittorio Gusella La Villa del Colle del Cardinale ipotesi attributive e consistenze storiche - Francesca Abbozzo L’ultimo lavoro di Galeazzo Alessi: il progetto del nuovo palazzo comunale di Spello (1570) - Gianluca Spoletini  •I rilievi Disegnare “per profili et contorni”. Il rilievo delle architetture umbre di Galeazzo Alessi - Paolo Belardi  •La fortuna Celebrazioni in onore di Galeazzo Alessi - Maria Serena Sampaolo  La fortuna ottocentesca di Galeazzo Alessi nell’Accademia perugina - Fedora Boco  Il contributo dell’Accademia di Belle Arti “Pietro Vannucci” di Perugia per ricordare i 300 anni della morte di Galeazzo Alessi - Mario Squadroni  La percezione della figura di Galeazzo Alessi in alcune fonti archivistiche perugine novecentesche - Mario Squadroni La tomba. Da sepolcro di famiglia a monumento commemorativo - Simone Bori, Luca Martini Nota sulle carte dell’architetto Ugo Tarchi - Paola Monacchia Galeazzo Alessi e lo sviluppo dell’architettura spagnola: questioni aperte e ipotesi di ricerca - Carlos Plaza Attenzioni e cure della Soprintendenza all’opera dell’Alessi - Anna Di Bene  •Bibliografia Bibliografia degli scritti dell'architetto perugino Galeazzo Alessi - Letizia Vecchi Bibliografia di riferimento - Letizia Vecchi" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:137  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 5 N° 10" ;
+        dcterms:description  "Sommario anno V numero 10/2012  • Prefazione - Valerio Massimo Manfredi Premessa - Luigi Malnati Editoriale - Fabrizio Bracco, Francesco Scoppola Presentazione - Sandro Vitali Introduzione - Alessandra Bravi , Mario Pagano • L'Umbria tardoantica: spazio geografico e dimensione storica • Una popolazione di statue • Il mondo visuale tardoantico: linguaggi e materiali • Le trasformazioni dei paesaggi e degli spazi Bibliografia" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:9    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo Claudio Faina di Orvieto. Ceramica Attica a figure nere" ;
+        dcterms:description  "Questo volume, dedicato alla ceramica attica a figure nere conservata presso il Museo Faina di Orvieto, propone la documentazione della ceramica figurata della Grecia antica. Vasi prodotti dal VI al IV secolo a.C. ad Atene, capoluogo dell'Attica, rinvenuti prevalentemente in tombe e di assoluta predominanza per qualità tecniche, estetiche e anche economiche; oggetti di ampia diffusione in tutti gli stati sociali ed in molti momenti della vita pubblica e privata. La ceramica dipinta aveva avuto uno sviluppo di estremo interesse nel mondo ellenico, ma solo ad Atene, nel quartiere detto Kerameios, dove si trovavano le botteghe e i forni, si attua l'evoluzione che ha portato alla ceramica a figure nere. Questo volume suggerisce, per ogni prezioso reperto, la scuola di pittura, l'inquadramento storico-archeologico, la tecnica utilizzata, la scena raffigurata. A fondo libro: glossario delle forme, tavole di concordanza , indice degli Artisti, dei Gruppi e delle Classi, indice dei soggetti, indice delle abbreviazione bibliografiche, indice bibliografico." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:1    rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Epigrafi lapidarie romane di Assisi" ;
+        dcterms:description  "Questo volume della serie è dedicato alle raccolte epigrafiche di Assisi, che conservano un patrimonio di iscrizioni tra i più cospicui sia per entità sia per importanza, quale nessuna città dell'Umbria moderna può al momento vantare. Delle iscrizioni presentate nel catalogo vengono fornite illustrazioni, indicazioni sul sito e sullo stato di conservazione, nonché revisioni dei testi per quanto concerne letture e integrazioni." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:141  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Francesco D'Assisi. Documenti e Archivi, Codici e Biblioteche, Miniature" ;
+        dcterms:description  "Un libro che commemora l'8 ° centenario della nascita di San Francesco d'Assisi. Scritto in italiano, dura copre in panno nero. . Crema illustrato DJ. Tutte ottime condizioni. Senza iscrizioni, non di prezzo ritagliato. Un libro pesante. Misure di circa 22 cm per 24 cm. Copiosamente illustrato tra cui numerose tavole a colori. La leggenda di San Francesco, come raffigurato in arte. Un libro erudito per il vero studioso. Affrancatura dovrà essere confermata. 393 pagine con completa bibliografia. Codice libro della libreria 000336" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:143  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Francesco d'Assisi. Chiese e Conventi." ;
+        dcterms:description  "-" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:145  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Il Palazzo Trinci di Foligno" ;
+        dcterms:description  "-" ;
+        schema:category      "Cataloghi, Mostre o Monografie" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:78   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Raccolta d'arte di San Francesco di Trevi" ;
+        dcterms:description  "Destinato ad illustrare le collezioni archeologiche e storico-artistiche di proprietà del Comune di Trevi, il volume analizza anche la storia e le decorazioni della chiesa francescana e del convento annesso, oggi sede delle raccolte. Particolari approfondimenti sono inoltre dedicati alla storia degli insediamenti nel territorio e allo sviluppo urbano e culturale della città, la cui complessità è anche frutto del dinamismo delle numerose comunità francescane e del prestigio di nobili famiglie locali." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:138  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 6 N° 11" ;
+        dcterms:description  "-" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:79   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Galleria d'Arte contemporanea della Pro Civitate Christiana di Assisi" ;
+        dcterms:description  "Da decenni la Regione Umbria ha intrapreso la sistematica catalogazione dei beni culturali, per acquisire le conoscenze necessarie al miglior esercizio tanto delle funzioni espressamente inerenti ai musei di enti locali e di interesse locale, quanto di quelle per l'urbanistica e l'assetto del territorio, le attività culturali, il turismo, il diritto allo studio, la formazione professionale. L'indagine si rivolge, dunque, non solo ai beni custoditi nei musei ma a tutto il patrimonio culturale umbro direttamente e indirettamente interessato dall'opera delle autonomie locali. Questa attività della Regione è all'origine della presente collana di volumi. Con essa si intende proporre in maniera sistematica, agli studiosi e al pubblico dei lettori, il frutto di un impegno che mira alla salvaguardia e alla conoscenza di un patrimonio insostituibile per l'Umbria e per l'intero Paese." ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:139  rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Bollettino per i beni culturali dell'Umbria. Anno 7 N° 13" ;
+        dcterms:description  "-" ;
+        schema:category      "Rivista semestrale di divulgazione scientifica" ;
+        cis:hasAddress       kr:culturaUmbria .
+
+kr:80   rdf:type             cis:CulturalHeritageObject ;
+        rdfs:label           "Museo dell'Olivo e dell'Olio di Torgiano" ;
+        dcterms:description  "-" ;
+        schema:category      "Catalogo regionale dei beni culturali dell'Umbria" ;
+        cis:hasAddress       kr:culturaUmbria .

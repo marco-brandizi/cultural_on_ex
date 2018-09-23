@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX cis: <http://dati.beniculturali.it/cis/>
+PREFIX schema: <http://schema.org/>
+
+PREFIX kr: <http://www.example.com/resources/>
+
+CONSTRUCT {
+  ?obj a cis:CulturalHeritageObject;
+    rdfs:label ?Titolo_pubblicazione;
+    dcterms:description ?Descrizione;
+    schema:category ?Serie;
+
+    # No address in the data, so let's make a fictitious one, just to show it as a demo
+    # The details are defined in umbria.ttl
+    cis:hasAddress kr:culturaUmbria;
+  .
+}
+WHERE
+{
+  BIND ( IRI ( CONCAT ( STR ( kr: ), ?N_Volume ) ) AS ?obj )
+}

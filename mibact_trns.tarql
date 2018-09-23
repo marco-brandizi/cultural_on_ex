@@ -1,0 +1,49 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX cis: <http://dati.beniculturali.it/cis/>
+PREFIX schema: <http://schema.org/>
+
+PREFIX kr: <http://www.example.com/resources/>
+
+
+CONSTRUCT {
+  ?obj a cis:CulturalHeritageObject;
+    rdfs:label ?SOGGETTO;
+    schema:category ?BENE_CULTURALE;
+    schema:genre ?AMBITO_CULTURALE;
+    dcterms:creator ?AUTORE;
+    dcterms:date ?DATAZIONE;
+    dcterms:description ?DATI_ANALITICI;
+    schema:image ?IMG;
+    cis:hasAddress ?addr
+  .
+
+  ?addr a cis:Address;
+    cis:adminUnitL1 ?REGIONE;
+    cis:adminUnitL2 ?PROVINCIA;
+    cis:postName ?COMUNE;
+    cis:fullAddress ?INDIRIZZO;
+    cis:hasGeometry ?loc
+  .
+
+  ?loc a cis:Geometry;
+    cis:hasLat ?lat;
+    cis:hasLong ?long
+  .
+}
+WHERE
+{
+  BIND ( MD5 ( CONCAT ( ?REGIONE, ?PROVINCIA, ?COMUNE, ?INDIRIZZO ) ) AS ?addrHash )
+  BIND ( IRI ( CONCAT ( STR ( kr: ), ?addrHash ) ) AS ?addr )
+
+  BIND ( xsd:double ( ?LAT ) AS ?lat )
+  BIND ( xsd:double ( ?LON ) AS ?long )
+
+  BIND ( MD5 ( CONCAT ( ?LAT, ?LON ) ) AS ?locHash )
+  BIND ( IRI ( CONCAT ( STR ( kr: ), ?locHash ) ) AS ?loc )
+
+  BIND ( IRI ( CONCAT ( STR ( kr: ), REPLACE ( ?CODICE_UNIVOCO, ' ', '_' ) ) ) AS ?obj )
+}
