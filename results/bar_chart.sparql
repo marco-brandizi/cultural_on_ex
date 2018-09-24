@@ -1,0 +1,19 @@
+#
+# Query used to get bar_chart.png
+# You've to run fuseki.sh and then this query into the http://localhost:3030 interface
+#
+PREFIX cis: <http://dati.beniculturali.it/cis/>
+PREFIX kr: <http://www.example.com/resources/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?region (COUNT ( ?obj ) AS ?heritageResources)
+{
+  ?obj a cis:CulturalHeritageObject;
+    cis:hasAddress ?addr.
+
+  ?addr cis:adminUnitL1 ?region1.
+  BIND ( REPLACE ( ?region1, '-', ' ' ) AS ?region ) # Fix some typo like Emilia-Romagna
+}
+GROUP BY ?region
+ORDER BY DESC ( ?heritageResources )
+LIMIT 20

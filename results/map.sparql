@@ -1,0 +1,22 @@
+#
+# Query used to get map.png
+# You've to run fuseki.sh and then this query into the http://localhost:3030 interface
+#
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?label ?url ?img ?lat ?long
+{
+  ?obj a cis:CulturalHeritageObject;
+    rdfs:label ?label;
+    cis:hasAddress/cis:hasGeometry ?loc.
+
+  ?loc cis:hasLat ?lat; cis:hasLong ?long.
+
+  OPTIONAL { ?obj schema:image ?img }
+  OPTIONAL { ?obj cis:url ?url }
+}
+ORDER BY RAND()
+LIMIT 100
